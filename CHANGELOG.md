@@ -1,3 +1,23 @@
+# [2.5.0](https://github.com/deriv-com/quill-icons/compare/v2.4.18...v2.5.0) (2026-05-06)
+
+
+### ♻️ 	 Chores
+
+* **deps:** update lock file after dependency fix ([c6868c4](https://github.com/deriv-com/quill-icons/commit/c6868c4b0b607efc706c07b968904729fa505891))
+* sync package-lock.json with react 19 peer deps ([043fde0](https://github.com/deriv-com/quill-icons/commit/043fde045a31ec2b53008de9a1a6018cb6c2bc4a))
+* sync package-lock.json with react 19 peer deps ([857a345](https://github.com/deriv-com/quill-icons/commit/857a345fd7d1ebe713a218820c5a951b87f82a89))
+
+
+### ✨ 	 Features
+
+* add new icons ([4e23203](https://github.com/deriv-com/quill-icons/commit/4e2320351df16dbc26f881d4e2e9a3e85866252a))
+* add new icons ([1d77872](https://github.com/deriv-com/quill-icons/commit/1d778721f0f8d9c8797d701bdf0579d05c752292))
+
+
+### 🐛 	 Bug Fixes
+
+* **security:** Bulk fix for 1 security issues ([ab6e5eb](https://github.com/deriv-com/quill-icons/commit/ab6e5ebf2b7001e6ceb2208caff0d8fd45ab9170))
+
 ## [2.4.18](https://github.com/deriv-com/quill-icons/compare/v2.4.17...v2.4.18) (2026-04-07)
 
 
