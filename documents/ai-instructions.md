@@ -44,7 +44,7 @@ This guide provides instructions for AI on how to use LabelPaired icons from the
 
 ## Icon Categories and Examples
 
-Based on our analysis of 4,530 LabelPaired icons representing 322 unique icon names, here are the main categories:
+Based on our analysis of 4,625 LabelPaired icons representing 329 unique icon names, here are the main categories:
 
 ### Navigation & Arrows
 
@@ -149,7 +149,7 @@ These icons typically don't have Bold/Fill/Regular variants:
 
 Before suggesting an icon, ensure it exists by checking:
 
-1. The icon name exists in our 322 unique names
+1. The icon name exists in our 329 unique names
 2. The size variant (Caption/Sm/Md/Lg/Xl) is available
 3. The weight variant (Bold/Fill/Regular) exists for that icon
 
@@ -162,9 +162,9 @@ Before suggesting an icon, ensure it exists by checking:
 
 ## Complete Icon List
 
-The library contains 322 unique icon names. Each icon is available in 5 sizes. Icons with weight variants come in 3 weights (Bold, Fill, Regular), while brand icons typically have only one style.
+The library contains 329 unique icon names. Each icon is available in 5 sizes. Icons with weight variants come in 3 weights (Bold, Fill, Regular), while brand icons typically have only one style.
 
-**Total Available Components:** 4,530 LabelPaired icon components
+**Total Available Components:** 4,625 LabelPaired icon components
 
 ## Error Prevention
 
@@ -257,7 +257,7 @@ Standalone icons work differently from LabelPaired icons. Instead of having size
 
 ## Common Standalone Icons and Examples
 
-Based on our analysis of 906 Standalone icons representing 322 unique icon names (same as LabelPaired), here are the most commonly used categories:
+Based on our analysis of 925 Standalone icons representing 329 unique icon names (same as LabelPaired), here are the most commonly used categories:
 
 ### Navigation & Arrows
 
@@ -425,7 +425,7 @@ TradeTypes icons **do not have** Bold/Fill/Regular variants. Each trade type has
 | **Size Control**    | Component name         | `iconSize` prop       | `iconSize` prop             |
 | **Weight Variants** | Bold/Fill/Regular      | Bold/Fill/Regular     | None (single design)        |
 | **Color Control**   | CSS/props              | `fill` prop           | Predefined (no prop)        |
-| **Count**           | 322 unique names       | 322 unique names      | 37 trade-specific icons     |
+| **Count**           | 329 unique names       | 329 unique names      | 37 trade-specific icons     |
 
 ## Complete List of Available TradeTypes Icons
 
