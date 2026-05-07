@@ -1,3 +1,11 @@
+## [2.5.2](https://github.com/deriv-com/quill-icons/compare/v2.5.1...v2.5.2) (2026-05-07)
+
+
+### ♻️ 	 Chores
+
+* update readme ([8635883](https://github.com/deriv-com/quill-icons/commit/8635883bf63788af2f07530dc395ca186291c6de))
+* update readme ([2f7afd3](https://github.com/deriv-com/quill-icons/commit/2f7afd30823f5b7a589cecfa71976a6c6be3c6a5))
+
 ## [2.5.1](https://github.com/deriv-com/quill-icons/compare/v2.5.0...v2.5.1) (2026-05-06)
 
 
