@@ -19,8 +19,6 @@ We developed the Deriv Quill Icons library to address several critical considera
 4. **Customisation:** It allows us to customise our icons globally. For example, we can change the color scheme, size, or other visual aspects of all icons in one place without modifying individual components. Also we can easily apply optimisations to all of our icons in one place.
 5. **Developer Productivity:** It enhances our developer productivity. Developers can easily find and use the icons they need without having to search for or create new assets each time.
 
-and ...
-
 ## Installation
 
 ```bash
@@ -86,8 +84,8 @@ With [@figma-export](https://www.npmjs.com/package/@figma-export/cli) we export 
 
 ## Pre-installation
 
-- node >=16.16.0
-- npm >=7.21.0
+- node >=18.0.0
+- npm >=9.0.0
 - git (for `contribution`)
 - Figma Token (Check [This](https://www.figma.com/developers/api#authentication) to set it up for yourself)
 - Figma File ID
@@ -169,13 +167,16 @@ To export new icons, run `npm run rebuild`. It will automatically export, optimi
 
 We use **[semantic-release](https://semantic-release.gitbook.io/semantic-release/)** for automating the release workflow. Commit messages determine the release type. Refer to the table below for guidelines.
 
-| Commit message                      | Release type                |
-| ----------------------------------- | --------------------------- |
-| build, ci, chore, docs, style, test | **Patch** (Fix Release)     |
-| refactor                            | **Minor** (Feature Release) |
+| Commit message                      | Release type                 |
+| ----------------------------------- | ---------------------------- |
+| fix                                 | **Patch** (Fix Release)      |
+| build, ci, chore, docs, style, test | **Patch** (Fix Release)      |
+| feat                                | **Minor** (Feature Release)  |
+| refactor                            | **Minor** (Feature Release)  |
+| BREAKING CHANGE                     | **Major** (Breaking Release) |
 
 **Triggering a release**
 
-For each new commit added to one of the release branches (for example: main, next, beta), with git push or by merging a pull request or merging from another branch, a CI build is triggered and runs the semantic-release command to make a release if there are codebase changes since the last release that affect the package functionalities.
+For each new commit added to one of the release branches (for example: master, next, beta), with git push or by merging a pull request or merging from another branch, a CI build is triggered and runs the semantic-release command to make a release if there are codebase changes since the last release that affect the package functionalities.
 
 For further information please checkout the **[semantic-release](https://semantic-release.gitbook.io/semantic-release/)** documentation.
