@@ -1,3 +1,11 @@
+## [2.5.3](https://github.com/deriv-com/quill-icons/compare/v2.5.2...v2.5.3) (2026-05-14)
+
+
+### 🐛 	 Bug Fixes
+
+* reduce package size ([4e3add1](https://github.com/deriv-com/quill-icons/commit/4e3add1dd51cf3bb57b6481a5d935a8e91f12388))
+* reduce package size ([5ae33f6](https://github.com/deriv-com/quill-icons/commit/5ae33f646af8e771fe6c8e3989df83cee794e825))
+
 ## [2.5.2](https://github.com/deriv-com/quill-icons/compare/v2.5.1...v2.5.2) (2026-05-07)
 
 
