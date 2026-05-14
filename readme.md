@@ -25,6 +25,10 @@ We developed the Deriv Quill Icons library to address several critical considera
 npm i @deriv/quill-icons
 ```
 
+The published package is **ESM-only** (single `dist/` build, no CommonJS `require`). Use `import` in apps or bundlers that resolve the `exports` field.
+
+If `npm publish` fails with `ERR_STRING_TOO_LONG`, the unpacked tarball is still near Node’s hard limit; run a full **`npm run export`** (Figma token required) so the updated SVGO pipeline rewrites `src/react/**` with smaller SVG output, or split heavy sets (for example illustrations) into a separate package.
+
 **Usage**
 
 ```jsx
