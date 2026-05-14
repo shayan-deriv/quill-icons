@@ -3,7 +3,9 @@ import * as FigmaExport from '@figma-export/types';
 import { ICON_PAGES } from './figma.constants';
 import crypto from 'crypto';
 
-export const getRandomHash = () => crypto.randomBytes(16).toString('hex');
+/** Short stable prefix for SVGO prefixIds (avoids 32-char random hex per export). */
+export const getStableIdPrefix = (seed: string) =>
+  crypto.createHash('sha1').update(seed, 'utf8').digest('hex').slice(0, 8);
 
 export const getFileDescriptor = (options: FigmaExport.ComponentOutputterParamOption) => {
   const { componentName } = options;
@@ -151,7 +153,7 @@ export const getSvgStoreOriginalPath = (pageName: string) => {
   return `${pageName}.svg`;
 };
 
-export const getSvgStoreFinalPath = (pageName: string) => {
+export const getSvgStoreFinalPath = () => {
   return 'icons.svg';
 };
 

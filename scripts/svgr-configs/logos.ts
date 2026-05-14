@@ -5,13 +5,13 @@ import {
   getDirName,
   getExportTemplate,
   getFileDescriptor,
-  getRandomHash,
+  getStableIdPrefix,
   isMd,
   makeVariableName,
 } from '../utils/figma.utils';
 import * as FigmaExport from '@figma-export/types';
 import { pascalCase } from '@figma-export/utils';
-import { Config as OptimizeOptions } from 'svgo';
+import { createBaseSvgoConfig } from './svgo-shared';
 
 interface Options {
   output: string;
@@ -60,32 +60,20 @@ export const LogosSvgReactOutPutConfig: Options = {
     const reactComponentFilename = getLogoComponentName(options);
     return getExportTemplate({ reactComponentFilename, reactComponentName });
   },
-  getSvgrConfig: () => {
-    const svgoConfig: OptimizeOptions = {
-      plugins: [
-        {
-          name: 'preset-default',
-          params: {
-            overrides: {
-              removeViewBox: false,
-            },
-          },
+  getSvgrConfig: (options) => {
+    const svgoConfig = createBaseSvgoConfig({
+      idPrefix: getStableIdPrefix(options.componentName),
+      floatPrecision: 3,
+    });
+    svgoConfig.plugins = [
+      ...(svgoConfig.plugins ?? []),
+      {
+        name: 'removeAttrs',
+        params: {
+          attrs: ['clip-path'],
         },
-        'removeComments',
-        'removeUselessStrokeAndFill',
-        {
-          name: 'prefixIds',
-          params: { prefix: getRandomHash() },
-        },
-        {
-          name: 'removeAttrs',
-          params: {
-            attrs: ['clip-path'],
-          },
-        },
-        'removeUselessDefs',
-      ],
-    };
+      },
+    ];
     return {
       ref: true,
       svgProps: {
@@ -94,7 +82,7 @@ export const LogosSvgReactOutPutConfig: Options = {
       titleProp: true,
       typescript: true,
       svgo: true,
-      plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],
+      plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx'],
       svgoConfig,
       dimensions: false,
     };

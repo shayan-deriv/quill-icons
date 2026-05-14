@@ -5,13 +5,13 @@ import {
   getDirName,
   getExportTemplate,
   getFileDescriptor,
-  getRandomHash,
+  getStableIdPrefix,
   isMd,
   makeVariableName,
 } from '../utils/figma.utils';
 import * as FigmaExport from '@figma-export/types';
 import { pascalCase } from '@figma-export/utils';
-import { Config as OptimizeOptions } from 'svgo';
+import { createBaseSvgoConfig } from './svgo-shared';
 
 interface Options {
   output: string;
@@ -62,26 +62,11 @@ export const IllustrationSvgReactOutPutConfig: Options = {
     const reactComponentFilename = getIllustrationComponentName(options);
     return getExportTemplate({ reactComponentFilename, reactComponentName });
   },
-  getSvgrConfig: () => {
-    const svgoConfig: OptimizeOptions = {
-      plugins: [
-        {
-          name: 'preset-default',
-          params: {
-            overrides: {
-              removeViewBox: false,
-            },
-          },
-        },
-        {
-          name: 'prefixIds',
-          params: { prefix: getRandomHash() },
-        },
-        'removeComments',
-        'removeUselessDefs',
-        'removeUselessStrokeAndFill',
-      ],
-    };
+  getSvgrConfig: (options) => {
+    const svgoConfig = createBaseSvgoConfig({
+      idPrefix: getStableIdPrefix(options.componentName),
+      floatPrecision: 3,
+    });
     return {
       ref: true,
       svgProps: {
@@ -91,7 +76,7 @@ export const IllustrationSvgReactOutPutConfig: Options = {
       titleProp: true,
       svgo: true,
       icon: true,
-      plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],
+      plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx'],
       svgoConfig,
       dimensions: false,
     };

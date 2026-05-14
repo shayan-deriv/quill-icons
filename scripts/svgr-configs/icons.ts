@@ -6,10 +6,10 @@ import {
   getExportTemplate,
   getFileDescriptor,
   getNameGeneratorByPage,
-  getRandomHash,
+  getStableIdPrefix,
 } from '../utils/figma.utils';
-import { Config as OptimizeOptions } from 'svgo';
 import SvgrTemplate from './svgr-template';
+import { createBaseSvgoConfig } from './svgo-shared';
 import * as FigmaExport from '@figma-export/types';
 import { pascalCase } from '@figma-export/utils';
 
@@ -54,32 +54,20 @@ export const IconSvgReactOutPutConfig: Options = {
       options.pageName.toLowerCase().includes('illustrative') ||
       options.pageName === 'Legacy';
 
-    const svgoConfig: OptimizeOptions = {
-      plugins: [
+    const svgoConfig = createBaseSvgoConfig({
+      idPrefix: getStableIdPrefix(options.componentName),
+      floatPrecision: 3,
+    });
+    if (shouldCleanFills) {
+      svgoConfig.plugins = [
+        ...(svgoConfig.plugins ?? []),
         {
-          name: 'preset-default',
+          name: 'removeAttrs',
           params: {
-            overrides: {
-              removeViewBox: false,
-            },
+            attrs: ['fill', 'fill-opacity', 'clip-path'],
           },
         },
-        {
-          name: 'prefixIds',
-          params: { prefix: getRandomHash() },
-        },
-        'removeComments',
-        'removeUselessStrokeAndFill',
-        'removeUselessDefs',
-      ],
-    };
-    if (shouldCleanFills) {
-      svgoConfig.plugins?.push({
-        name: 'removeAttrs',
-        params: {
-          attrs: ['fill', 'fill-opacity', 'clip-path'],
-        },
-      });
+      ];
     }
     return {
       ref: true,
@@ -89,7 +77,7 @@ export const IconSvgReactOutPutConfig: Options = {
       typescript: true,
       titleProp: true,
       svgo: true,
-      plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],
+      plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx'],
       svgoConfig,
       dimensions: !shouldUseTemplate,
       template: shouldUseTemplate ? SvgrTemplate : undefined,
