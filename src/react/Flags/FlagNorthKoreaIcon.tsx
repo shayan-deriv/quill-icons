@@ -22,7 +22,7 @@ export const FlagNorthKoreaIcon = (
     {title ? <title id={titleId}>{title}</title> : null}
     <path fill='#024FA2' d='M0 12h24v2a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z' />
     <path fill='#ED1C27' d='M24 5H0v6h24z' />
-    <path fill='#fff' d='M24 4H0v1h24zM24 11H0v1h24z' />
+    <path fill='#fff' d='M24 4H0v1h24zm0 7H0v1h24z' />
     <path fill='#024FA2' d='M2 0h20a2 2 0 0 1 2 2v2H0V2a2 2 0 0 1 2-2' />
     <path
       fill='#fff'

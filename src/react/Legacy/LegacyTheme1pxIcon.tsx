@@ -19,14 +19,7 @@ export const LegacyTheme1pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M8 15A7 7 0 1 0 8 1v14m0 1a7.98 7.98 0 0 1-6.1-2.823A8 8 0 1 1 8 16' />
-    </g>
-    <defs>
-      <clipPath id='a14c31fde39536f0571c3a5470ae6f22__a'>
-        <path d='M0 0h16v16H0z' />
-      </clipPath>
-    </defs>
+    <path d='M8 15A7 7 0 1 0 8 1zm0 1a7.98 7.98 0 0 1-6.1-2.823A8 8 0 1 1 8 16' />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyTheme1pxIcon);

@@ -20,14 +20,7 @@ const LabelPairedChartTrendDownMdRegularIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M19.219 19.469a.513.513 0 0 1-.688-.219l-2.843-5.75H11a.51.51 0 0 1-.469-.25L6.75 5.688l-5.531 2.78c-.25.126-.563 0-.688-.218a.513.513 0 0 1 .219-.687l6-3a.513.513 0 0 1 .688.218L11.28 12.5H16c.188 0 .344.125.438.281l3 6a.513.513 0 0 1-.22.688' />
-    </g>
-    <defs>
-      <clipPath id='a0da8ef47d730f769565912fd3e224c8__a'>
-        <path d='M0 0h20v24H0z' />
-      </clipPath>
-    </defs>
+    <path d='M19.219 19.469a.513.513 0 0 1-.688-.219l-2.843-5.75H11a.51.51 0 0 1-.469-.25L6.75 5.688l-5.531 2.78c-.25.126-.563 0-.688-.218a.513.513 0 0 1 .219-.687l6-3a.513.513 0 0 1 .688.218L11.28 12.5H16c.188 0 .344.125.438.281l3 6a.513.513 0 0 1-.22.688' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedChartTrendDownMdRegularIcon);

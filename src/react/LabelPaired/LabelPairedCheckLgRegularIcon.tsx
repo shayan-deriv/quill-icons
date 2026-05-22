@@ -20,14 +20,7 @@ const LabelPairedCheckLgRegularIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M17.555 9.445a.66.66 0 0 1 0 .899L6.93 20.969a.66.66 0 0 1-.899 0L.406 15.344a.66.66 0 0 1 0-.899.66.66 0 0 1 .899 0L6.5 19.641 16.656 9.445a.66.66 0 0 1 .899 0' />
-    </g>
-    <defs>
-      <clipPath id='da8a4eda30995749d0702df44c80aa3f__a'>
-        <path d='M0 0h18v30H0z' />
-      </clipPath>
-    </defs>
+    <path d='M17.555 9.445a.66.66 0 0 1 0 .899L6.93 20.969a.66.66 0 0 1-.899 0L.406 15.344a.66.66 0 0 1 0-.899.66.66 0 0 1 .899 0L6.5 19.641 16.656 9.445a.66.66 0 0 1 .899 0' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedCheckLgRegularIcon);

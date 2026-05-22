@@ -19,9 +19,9 @@ const DerivDarkFindAdIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#48c09546f0aa0d6ec578537fe5e42532__a)'>
+    <g clipPath='url(#53e4bec6a)'>
       <mask
-        id='48c09546f0aa0d6ec578537fe5e42532__b'
+        id='53e4bec6b'
         width={96}
         height={96}
         x={0}
@@ -33,7 +33,7 @@ const DerivDarkFindAdIcon = (
       >
         <path fill='#fff' d='M96 0H0v96h96z' />
       </mask>
-      <g mask='url(#48c09546f0aa0d6ec578537fe5e42532__b)'>
+      <g mask='url(#53e4bec6b)'>
         <path
           fill='#9498A2'
           d='M59.73 21.7a6 6 0 0 0-6-6H6a6 6 0 0 0-6 6V90a6 6 0 0 0 6 6h47.73a6 6 0 0 0 6-6z'
@@ -45,7 +45,7 @@ const DerivDarkFindAdIcon = (
         <path fill='#5C616D' d='M58.8 19.08h19.08L58.8 0z' />
         <path
           fill='#F6F7F8'
-          d='M66.41 48.02H29.59v4.38h36.82zM51.41 38.95H29.59v4.38h21.82zM66.41 57.09H29.59v4.38h36.82zM66.41 66.16H29.59v4.38h36.82zM37.03 18.68c-.6 0-.93-.48-.93-1.37h.01c0-.92.36-1.35.92-1.35s.94.41.94 1.35-.34 1.37-.94 1.37M43.94 22.83c-.6 0-.93-.48-.93-1.37h.01c0-.91.36-1.35.92-1.35s.94.41.94 1.35-.34 1.37-.94 1.37'
+          d='M66.41 48.02H29.59v4.38h36.82zm-15-9.07H29.59v4.38h21.82zm15 18.14H29.59v4.38h36.82zm0 9.07H29.59v4.38h36.82zM37.03 18.68c-.6 0-.93-.48-.93-1.37h.01c0-.92.36-1.35.92-1.35s.94.41.94 1.35-.34 1.37-.94 1.37m6.91 4.15c-.6 0-.93-.48-.93-1.37h.01c0-.91.36-1.35.92-1.35s.94.41.94 1.35-.34 1.37-.94 1.37'
         />
         <path
           fill='#F6F7F8'
@@ -66,7 +66,7 @@ const DerivDarkFindAdIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='48c09546f0aa0d6ec578537fe5e42532__a'>
+      <clipPath id='53e4bec6a'>
         <path fill='#fff' d='M0 0h96v96H0z' />
       </clipPath>
     </defs>

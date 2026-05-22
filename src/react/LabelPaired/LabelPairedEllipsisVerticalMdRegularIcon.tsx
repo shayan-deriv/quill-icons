@@ -20,14 +20,7 @@ const LabelPairedEllipsisVerticalMdRegularIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M2 16c.531 0 1 .469 1 1 0 .563-.469 1-1 1-.562 0-1-.437-1-1 0-.531.438-1 1-1m0-5c.531 0 1 .469 1 1 0 .563-.469 1-1 1-.562 0-1-.437-1-1 0-.531.438-1 1-1m1-4c0 .563-.469 1-1 1-.562 0-1-.437-1-1 0-.531.438-1 1-1 .531 0 1 .469 1 1' />
-    </g>
-    <defs>
-      <clipPath id='d12cbd1cd51afd63dfb13bf4bb00ce5d__a'>
-        <path d='M0 0h4v24H0z' />
-      </clipPath>
-    </defs>
+    <path d='M2 16c.531 0 1 .469 1 1 0 .563-.469 1-1 1-.562 0-1-.437-1-1 0-.531.438-1 1-1m0-5c.531 0 1 .469 1 1 0 .563-.469 1-1 1-.562 0-1-.437-1-1 0-.531.438-1 1-1m1-4c0 .563-.469 1-1 1-.562 0-1-.437-1-1 0-.531.438-1 1-1 .531 0 1 .469 1 1' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedEllipsisVerticalMdRegularIcon);

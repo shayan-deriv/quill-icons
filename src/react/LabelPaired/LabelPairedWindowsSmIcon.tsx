@@ -20,14 +20,7 @@ const LabelPairedWindowsSmIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M.375 6.32v4.157h5.004v-4.84zm0 8.887v-4.102h5.004v4.786zm5.55.766v-4.868h6.7v5.77zm0-10.418 6.7-.93v5.852h-6.7z' />
-    </g>
-    <defs>
-      <clipPath id='57d9fdead2a138efd8d7284b18eb31ef__a'>
-        <path d='M0 0h13v22H0z' />
-      </clipPath>
-    </defs>
+    <path d='M.375 6.32v4.157h5.004v-4.84zm0 8.887v-4.102h5.004v4.786zm5.55.766v-4.868h6.7v5.77zm0-10.418 6.7-.93v5.852h-6.7z' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedWindowsSmIcon);

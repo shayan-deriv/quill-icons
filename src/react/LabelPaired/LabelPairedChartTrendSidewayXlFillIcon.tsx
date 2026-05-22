@@ -20,14 +20,7 @@ const LabelPairedChartTrendSidewayXlFillIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M0 18c0-.797.656-1.5 1.5-1.5h27c.797 0 1.5.703 1.5 1.5 0 .844-.703 1.5-1.5 1.5h-27A1.48 1.48 0 0 1 0 18' />
-    </g>
-    <defs>
-      <clipPath id='01062a1dc12316be2f6a754068854e37__a'>
-        <path d='M0 0h30v36H0z' />
-      </clipPath>
-    </defs>
+    <path d='M0 18c0-.797.656-1.5 1.5-1.5h27c.797 0 1.5.703 1.5 1.5 0 .844-.703 1.5-1.5 1.5h-27A1.48 1.48 0 0 1 0 18' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedChartTrendSidewayXlFillIcon);

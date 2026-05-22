@@ -20,14 +20,7 @@ const LabelPairedCaretUpSmBoldIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='m4.5 8.754-2.46 2.434h4.894zm-.629-1.23a.843.843 0 0 1 1.23 0l3.5 3.5a.89.89 0 0 1 .192.957A.83.83 0 0 1 8 12.5H1c-.355 0-.684-.191-.82-.52a.89.89 0 0 1 .191-.957z' />
-    </g>
-    <defs>
-      <clipPath id='4155221a9a9064f3a7a1f7a75e847658__a'>
-        <path d='M0 0h9v22H0z' />
-      </clipPath>
-    </defs>
+    <path d='m4.5 8.754-2.46 2.434h4.894zm-.629-1.23a.843.843 0 0 1 1.23 0l3.5 3.5a.89.89 0 0 1 .192.957A.83.83 0 0 1 8 12.5H1c-.355 0-.684-.191-.82-.52a.89.89 0 0 1 .191-.957z' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedCaretUpSmBoldIcon);

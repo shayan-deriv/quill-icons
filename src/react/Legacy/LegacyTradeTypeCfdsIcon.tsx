@@ -19,9 +19,11 @@ export const LegacyTradeTypeCfdsIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fillRule='evenodd' clipRule='evenodd'>
-      <path d='M4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0' />
-    </g>
+    <path
+      fillRule='evenodd'
+      d='M4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6m8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6m1.854-12.854a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0'
+      clipRule='evenodd'
+    />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyTradeTypeCfdsIcon);

@@ -26,7 +26,7 @@ export const MarketDerivedSkewStepIndex4DownIcon = (
       d='M21.463 32H26v-3h-2.463l-10-27H0v3h11.463z'
       clipRule='evenodd'
     />
-    <path fill='#FF444F' d='M26 29h3v-3h-3zM29 26h3v-3h-3z' />
+    <path fill='#FF444F' d='M26 29h3v-3h-3zm3-3h3v-3h-3z' />
     <path
       fill='#414652'
       d='M0 24a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z'

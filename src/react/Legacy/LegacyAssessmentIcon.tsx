@@ -19,18 +19,11 @@ export const LegacyAssessmentIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path
-        fillRule='evenodd'
-        d='M0 1a1 1 0 0 1 1-1h7.707L13 4.293l2.146-2.147a.5.5 0 0 1 .708.708l-8 8a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 9.793l4.5-4.5V5H9a1 1 0 0 1-1-1V1H1v14h11V8l1-1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm9 .707L11.293 4H9z'
-        clipRule='evenodd'
-      />
-    </g>
-    <defs>
-      <clipPath id='a3eaeeaab8ded42ad0c59b9b70a93867__a'>
-        <path d='M0 0h16v16H0z' />
-      </clipPath>
-    </defs>
+    <path
+      fillRule='evenodd'
+      d='M0 1a1 1 0 0 1 1-1h7.707L13 4.293l2.146-2.147a.5.5 0 0 1 .708.708l-8 8a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 9.793l4.5-4.5V5H9a1 1 0 0 1-1-1V1H1v14h11V8l1-1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm9 .707L11.293 4H9z'
+      clipRule='evenodd'
+    />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyAssessmentIcon);

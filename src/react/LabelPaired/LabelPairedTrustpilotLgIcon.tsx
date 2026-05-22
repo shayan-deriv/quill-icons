@@ -20,14 +20,7 @@ const LabelPairedTrustpilotLgIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='m17.07 19.602-4.57 1.21 6.484 4.688zm5.938-6.446L12.5 20.812 5.977 25.5l2.5-7.617-6.524-4.727H10L12.5 5.5l2.46 7.656z' />
-    </g>
-    <defs>
-      <clipPath id='8c5b8f64f61e1a774d05d98140c6483c__a'>
-        <path d='M0 0h25v30H0z' />
-      </clipPath>
-    </defs>
+    <path d='m17.07 19.602-4.57 1.21 6.484 4.688zm5.938-6.446L12.5 20.812 5.977 25.5l2.5-7.617-6.524-4.727H10L12.5 5.5l2.46 7.656z' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedTrustpilotLgIcon);

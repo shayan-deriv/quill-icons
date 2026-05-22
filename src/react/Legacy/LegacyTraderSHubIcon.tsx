@@ -19,19 +19,12 @@ export const LegacyTraderSHubIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M0 2a2 2 0 0 1 2-2h7.077a2 2 0 0 1 2 2v7.077a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z' />
-      <path
-        fillRule='evenodd'
-        d='M22 1h-7.077a1 1 0 0 0-1 1v7.077a1 1 0 0 0 1 1H22a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1m-7.077-1a2 2 0 0 0-2 2v7.077a2 2 0 0 0 2 2H22a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM9.077 13.923H2a1 1 0 0 0-1 1V22a1 1 0 0 0 1 1h7.077a1 1 0 0 0 1-1v-7.077a1 1 0 0 0-1-1m-7.077-1a2 2 0 0 0-2 2V22a2 2 0 0 0 2 2h7.077a2 2 0 0 0 2-2v-7.077a2 2 0 0 0-2-2zM22 13.923h-7.077a1 1 0 0 0-1 1V22a1 1 0 0 0 1 1H22a1 1 0 0 0 1-1v-7.077a1 1 0 0 0-1-1m-7.077-1a2 2 0 0 0-2 2V22a2 2 0 0 0 2 2H22a2 2 0 0 0 2-2v-7.077a2 2 0 0 0-2-2z'
-        clipRule='evenodd'
-      />
-    </g>
-    <defs>
-      <clipPath id='de9dc6191b1ba96e3fa70d3d6d3bfbba__a'>
-        <path d='M0 0h24v24H0z' />
-      </clipPath>
-    </defs>
+    <path d='M0 2a2 2 0 0 1 2-2h7.077a2 2 0 0 1 2 2v7.077a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z' />
+    <path
+      fillRule='evenodd'
+      d='M22 1h-7.077a1 1 0 0 0-1 1v7.077a1 1 0 0 0 1 1H22a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1m-7.077-1a2 2 0 0 0-2 2v7.077a2 2 0 0 0 2 2H22a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM9.077 13.923H2a1 1 0 0 0-1 1V22a1 1 0 0 0 1 1h7.077a1 1 0 0 0 1-1v-7.077a1 1 0 0 0-1-1m-7.077-1a2 2 0 0 0-2 2V22a2 2 0 0 0 2 2h7.077a2 2 0 0 0 2-2v-7.077a2 2 0 0 0-2-2zm20 1h-7.077a1 1 0 0 0-1 1V22a1 1 0 0 0 1 1H22a1 1 0 0 0 1-1v-7.077a1 1 0 0 0-1-1m-7.077-1a2 2 0 0 0-2 2V22a2 2 0 0 0 2 2H22a2 2 0 0 0 2-2v-7.077a2 2 0 0 0-2-2z'
+      clipRule='evenodd'
+    />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyTraderSHubIcon);

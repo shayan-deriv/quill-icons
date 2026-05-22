@@ -22,7 +22,7 @@ export const FlagSpainIcon = (
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill='#DD172C'
-      d='M0 2a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v2H0zM0 12h24v2a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z'
+      d='M0 2a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v2H0zm0 10h24v2a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z'
     />
     <path fill='#FFCB00' d='M0 4h24v8H0z' />
     <path

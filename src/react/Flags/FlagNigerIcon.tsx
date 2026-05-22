@@ -24,7 +24,7 @@ export const FlagNigerIcon = (
     <path fill='#fff' d='M24 5H0v6h24z' />
     <path
       fill='#E25100'
-      d='M2 0h20a2 2 0 0 1 2 2v3H0V2a2 2 0 0 1 2-2M12 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4'
+      d='M2 0h20a2 2 0 0 1 2 2v3H0V2a2 2 0 0 1 2-2m10 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4'
     />
     <path
       fill='#000'

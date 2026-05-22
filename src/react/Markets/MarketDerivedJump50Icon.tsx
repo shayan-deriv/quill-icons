@@ -23,13 +23,13 @@ export const MarketDerivedJump50Icon = (
     <path
       fill='#FF444F'
       fillRule='evenodd'
-      d='M4 12v2H2v-2zM8 12v4H6v-4zM12 12v17h-2V12zM16 26v6h-2v-6z'
+      d='M4 12v2H2v-2zm4 0v4H6v-4zm4 0v17h-2V12zm4 14v6h-2v-6z'
       clipRule='evenodd'
     />
     <path
       fill='#0AA0B0'
       fillRule='evenodd'
-      d='M20 22v7h-2v-7zM24 0v26h-2V0zM28 4v8h-2V4zM32 8v4h-2V8z'
+      d='M20 22v7h-2v-7zm4-22v26h-2V0zm4 4v8h-2V4zm4 4v4h-2V8z'
       clipRule='evenodd'
     />
     <path

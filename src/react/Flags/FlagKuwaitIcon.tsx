@@ -24,10 +24,9 @@ export const FlagKuwaitIcon = (
       fill='#000'
       d='M0 2v12a2 2 0 0 0 .125.697 2 2 0 0 0 .562.812L7 11V5L.687.491A2 2 0 0 0 0 2'
     />
-    <path fill='#000' fillRule='evenodd' d='M.043 14.415' clipRule='evenodd' />
     <path fill='#007B3A' d='M22 0H2C1.498 0 1.039.185.687.491L7 5h17V2a2 2 0 0 0-2-2' />
     <path fill='#fff' d='M24 5H7v6h17z' />
-    <path fill='#D0091E' d='M24 11H7L.687 15.509A1.996 1.996 0 0 0 2 16h20a2 2 0 0 0 2-2z' />
+    <path fill='#D0091E' d='M24 11H7L.687 15.509A2 2 0 0 0 2 16h20a2 2 0 0 0 2-2z' />
     <path
       fill='#000'
       fillOpacity={0.08}

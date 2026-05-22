@@ -22,7 +22,7 @@ export const FlagGambiaIcon = (
     {title ? <title id={titleId}>{title}</title> : null}
     <path fill='#3A7728' d='M0 11h24v3a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z' />
     <path fill='#0C1C8C' d='M24 6H0v4h24z' />
-    <path fill='#fff' d='M24 5H0v1h24zM24 10H0v1h24z' />
+    <path fill='#fff' d='M24 5H0v1h24zm0 5H0v1h24z' />
     <path fill='#CE1126' d='M2 0h20a2 2 0 0 1 2 2v3H0V2a2 2 0 0 1 2-2' />
     <path
       fill='#000'

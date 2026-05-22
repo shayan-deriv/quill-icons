@@ -22,7 +22,7 @@ export const LegacySyntheticIndicesIcon = (
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill='#fff'
-      d='m13 10 1-.5-1-3h9L16 15l-1-2.5-1 .5 1 2.5H6L12 7zM5.5 16.5H15L13 19l1 .5 2-2.5 4 8.5h-9.5l2-3-1-.5-2 3zM27 15.5l-4-9-6.158 9H20v1h-3.25L21 25l6-8.5h-4v-1z'
+      d='m13 10 1-.5-1-3h9L16 15l-1-2.5-1 .5 1 2.5H6L12 7zm-7.5 6.5H15L13 19l1 .5 2-2.5 4 8.5h-9.5l2-3-1-.5-2 3zm21.5-1-4-9-6.158 9H20v1h-3.25L21 25l6-8.5h-4v-1z'
     />
     <path
       fill='#33658A'

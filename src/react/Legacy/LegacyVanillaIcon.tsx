@@ -19,14 +19,12 @@ export const LegacyVanillaIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path
-        fillRule='evenodd'
-        d='M12.053 1.276A.5.5 0 0 1 12.5 1h3a.5.5 0 0 1 0 1h-2.691L6.447 14.724a.5.5 0 0 1-.888.012L2.227 8.5H.5a.5.5 0 0 1 0-1h2.026a.5.5 0 0 1 .441.264l3.018 5.648z'
-        clipRule='evenodd'
-      />
-      <path d='M11 7.5h4.5a.5.5 0 0 1 0 1h-5zM4 7.5h4l-.5 1h-3z' />
-    </g>
+    <path
+      fillRule='evenodd'
+      d='M12.053 1.276A.5.5 0 0 1 12.5 1h3a.5.5 0 0 1 0 1h-2.691L6.447 14.724a.5.5 0 0 1-.888.012L2.227 8.5H.5a.5.5 0 0 1 0-1h2.026a.5.5 0 0 1 .441.264l3.018 5.648z'
+      clipRule='evenodd'
+    />
+    <path d='M11 7.5h4.5a.5.5 0 0 1 0 1h-5zm-7 0h4l-.5 1h-3z' />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyVanillaIcon);

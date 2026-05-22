@@ -22,9 +22,9 @@ export const FlagBotswanaIcon = (
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill='#73A9DD'
-      d='M0 2a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v3H0zM0 11h24v3a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z'
+      d='M0 2a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v3H0zm0 9h24v3a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z'
     />
-    <path fill='#fff' d='M0 5h24v1H0zM0 10h24v1H0z' />
+    <path fill='#fff' d='M0 5h24v1H0zm0 5h24v1H0z' />
     <path fill='#333' d='M0 6h24v4H0z' />
     <path
       fill='#000'

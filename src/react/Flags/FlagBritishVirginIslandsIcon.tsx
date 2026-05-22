@@ -26,7 +26,7 @@ export const FlagBritishVirginIslandsIcon = (
     />
     <path
       fill='#fff'
-      d='M5 0v2.131L1.815.008C1.042.08.396.59.13 1.288L2.697 3H0v2h2.697L0 6.798V8h1.803L5 5.869V8h2V5.869L10.197 8H12V6.798L9.303 5H12V3H9.303L12 1.202V0h-1.803L7 2.131V0z'
+      d='M5 0v2.131L1.815.008A2 2 0 0 0 .13 1.288L2.697 3H0v2h2.697L0 6.798V8h1.803L5 5.869V8h2V5.869L10.197 8H12V6.798L9.303 5H12V3H9.303L12 1.202V0h-1.803L7 2.131V0z'
     />
     <path fill='#F44336' d='M5.5 0v3.5H0v1h5.5V8h1V4.5H12v-1H6.5V0z' />
     <path
@@ -48,7 +48,7 @@ export const FlagBritishVirginIslandsIcon = (
     />
     <path
       fill='#FFDA44'
-      d='M19.25 5h1v1h-1zM15.75 5h1v1h-1zM19.25 9h1v1h-1zM15.75 9h1v1h-1zM19.25 7h1v1h-1zM15.75 7h1v1h-1z'
+      d='M19.25 5h1v1h-1zm-3.5 0h1v1h-1zm3.5 4h1v1h-1zm-3.5 0h1v1h-1zm3.5-2h1v1h-1zm-3.5 0h1v1h-1z'
     />
     <path fill='#A2001D' d='M18.75 5.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0' />
     <path fill='#fff' d='M18 6.5a.75.75 0 0 0 .75-.75V10h-1.5V5.75c0 .414.336.75.75.75' />

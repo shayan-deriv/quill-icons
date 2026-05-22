@@ -20,14 +20,7 @@ const LabelPairedCaretDownCaptionFillIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='m3.46 12.29-3-3a.76.76 0 0 1-.163-.821A.77.77 0 0 1 1 8h6c.305 0 .563.188.68.469a.76.76 0 0 1-.164.82l-3 3a.723.723 0 0 1-1.055 0' />
-    </g>
-    <defs>
-      <clipPath id='a1885ee069d415401bf17601dd2d50ab__a'>
-        <path d='M0 0h8v18H0z' />
-      </clipPath>
-    </defs>
+    <path d='m3.46 12.29-3-3a.76.76 0 0 1-.163-.821A.77.77 0 0 1 1 8h6c.305 0 .563.188.68.469a.76.76 0 0 1-.164.82l-3 3a.723.723 0 0 1-1.055 0' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedCaretDownCaptionFillIcon);

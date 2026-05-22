@@ -20,14 +20,7 @@ const LabelPairedChevronDownSmFillIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='m6.371 14.879-5.25-5.25a.843.843 0 0 1 0-1.23.843.843 0 0 1 1.23 0L7 13.018l4.621-4.62a.843.843 0 0 1 1.23 0 .843.843 0 0 1 0 1.23l-5.25 5.25a.843.843 0 0 1-1.23 0' />
-    </g>
-    <defs>
-      <clipPath id='c2c4dc7562a0e8b0580982469dd5b6ea__a'>
-        <path d='M0 0h14v22H0z' />
-      </clipPath>
-    </defs>
+    <path d='m6.371 14.879-5.25-5.25a.843.843 0 0 1 0-1.23.843.843 0 0 1 1.23 0L7 13.018l4.621-4.62a.843.843 0 0 1 1.23 0 .843.843 0 0 1 0 1.23l-5.25 5.25a.843.843 0 0 1-1.23 0' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedChevronDownSmFillIcon);

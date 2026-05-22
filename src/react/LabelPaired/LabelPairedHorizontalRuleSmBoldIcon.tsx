@@ -20,14 +20,7 @@ const LabelPairedHorizontalRuleSmBoldIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M.25 10.75c0-.355.273-.656.656-.656h16.188c.355 0 .656.3.656.656 0 .383-.3.656-.656.656H.906a.63.63 0 0 1-.656-.656' />
-    </g>
-    <defs>
-      <clipPath id='299a1ed32bf1e2afc3b8cda48d29d015__a'>
-        <path d='M0 0h18v22H0z' />
-      </clipPath>
-    </defs>
+    <path d='M.25 10.75c0-.355.273-.656.656-.656h16.188c.355 0 .656.3.656.656 0 .383-.3.656-.656.656H.906a.63.63 0 0 1-.656-.656' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedHorizontalRuleSmBoldIcon);

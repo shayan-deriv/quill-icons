@@ -26,7 +26,7 @@ export const FlagCaymanIslandsIcon = (
     />
     <path
       fill='#fff'
-      d='M5 0v2.131L1.815.008C1.042.08.396.59.13 1.288L2.697 3H0v2h2.697L0 6.798V8h1.803L5 5.869V8h2V5.869L10.197 8H12V6.798L9.303 5H12V3H9.303L12 1.202V0h-1.803L7 2.131V0z'
+      d='M5 0v2.131L1.815.008A2 2 0 0 0 .13 1.288L2.697 3H0v2h2.697L0 6.798V8h1.803L5 5.869V8h2V5.869L10.197 8H12V6.798L9.303 5H12V3H9.303L12 1.202V0h-1.803L7 2.131V0z'
     />
     <path fill='#F44336' d='M5.5 0v3.5H0v1h5.5V8h1V4.5H12v-1H6.5V0z' />
     <path
@@ -42,10 +42,10 @@ export const FlagCaymanIslandsIcon = (
     />
     <path fill='#059334' d='M19.732 4a2 2 0 0 0-3.464 0z' />
     <path fill='#F44336' d='M15 4h6v1h-6z' />
-    <path fill='#fff' d='M15 5h6v1h-6zM15 7h6v1h-6z' />
+    <path fill='#fff' d='M15 5h6v1h-6zm0 2h6v1h-6z' />
     <path
       fill='#0B50A0'
-      d='M15 6h6v1h-6zM15 8h6v1h-6zM20.696 10h-5.392c.348.647 1.094 1.466 2.696 2 1.602-.534 2.348-1.353 2.696-2'
+      d='M15 6h6v1h-6zm0 2h6v1h-6zm5.696 2h-5.392c.348.647 1.094 1.466 2.696 2 1.602-.534 2.348-1.353 2.696-2'
     />
     <path
       fill='#FFDA44'

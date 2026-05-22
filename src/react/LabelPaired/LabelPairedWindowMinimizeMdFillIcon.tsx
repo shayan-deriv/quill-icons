@@ -20,14 +20,7 @@ const LabelPairedWindowMinimizeMdFillIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M1 17h14c.531 0 1 .469 1 1 0 .563-.469 1-1 1H1c-.562 0-1-.437-1-1 0-.531.438-1 1-1' />
-    </g>
-    <defs>
-      <clipPath id='03f81809a1c725ccda1439d990549279__a'>
-        <path d='M0 0h16v24H0z' />
-      </clipPath>
-    </defs>
+    <path d='M1 17h14c.531 0 1 .469 1 1 0 .563-.469 1-1 1H1c-.562 0-1-.437-1-1 0-.531.438-1 1-1' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedWindowMinimizeMdFillIcon);

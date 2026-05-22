@@ -20,14 +20,7 @@ const LabelPairedMicrosoftMdIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M0 5h6.688v6.719H0zm7.281 0H14v6.719H7.281zM0 12.313h6.688V19H0zm7.281 0H14V19H7.281z' />
-    </g>
-    <defs>
-      <clipPath id='a27a84bd636669b264b8aafb2e538950__a'>
-        <path d='M0 0h14v24H0z' />
-      </clipPath>
-    </defs>
+    <path d='M0 5h6.688v6.719H0zm7.281 0H14v6.719H7.281zM0 12.313h6.688V19H0zm7.281 0H14V19H7.281z' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedMicrosoftMdIcon);

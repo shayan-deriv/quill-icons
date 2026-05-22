@@ -26,7 +26,7 @@ export const FlagKazakhstanIcon = (
     />
     <path
       fill='#FFEC2D'
-      d='M2 1h1v1H2zM3 2h1v1H3zM2 3h1v1H2zM2 5h1v1H2zM3 6h1v1H3zM3 4h1v1H3zM2 7h1v1H2zM3 8h1v1H3zM2 9h1v1H2zM2 11h1v1H2zM2 13h1v1H2zM3 12h1v1H3zM3 14h1v1H3zM3 10h1v1H3z'
+      d='M2 1h1v1H2zm1 1h1v1H3zM2 3h1v1H2zm0 2h1v1H2zm1 1h1v1H3zm0-2h1v1H3zM2 7h1v1H2zm1 1h1v1H3zM2 9h1v1H2zm0 2h1v1H2zm0 2h1v1H2zm1-1h1v1H3zm0 2h1v1H3zm0-4h1v1H3z'
     />
     <path
       fill='#FFEC2D'

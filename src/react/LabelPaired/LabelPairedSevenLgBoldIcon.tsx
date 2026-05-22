@@ -20,14 +20,7 @@ const LabelPairedSevenLgBoldIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M.25 7.688c0-.508.39-.938.938-.938h10.625c.312 0 .624.195.78.508.196.273.196.625 0 .937L3.22 23.82a.94.94 0 0 1-1.29.313c-.429-.274-.585-.86-.312-1.29l8.516-14.218H1.188c-.547 0-.938-.39-.938-.937' />
-    </g>
-    <defs>
-      <clipPath id='c86fc5cf0efe5826bce9fb082fe8c9d9__a'>
-        <path d='M0 0h13v30H0z' />
-      </clipPath>
-    </defs>
+    <path d='M.25 7.688c0-.508.39-.938.938-.938h10.625c.312 0 .624.195.78.508.196.273.196.625 0 .937L3.22 23.82a.94.94 0 0 1-1.29.313c-.429-.274-.585-.86-.312-1.29l8.516-14.218H1.188c-.547 0-.938-.39-.938-.937' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedSevenLgBoldIcon);

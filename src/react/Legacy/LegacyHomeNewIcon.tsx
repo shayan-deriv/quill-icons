@@ -19,18 +19,11 @@ export const LegacyHomeNewIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path
-        fillRule='evenodd'
-        d='M7.673.372a.5.5 0 0 1 .654 0l7.5 6.5a.5.5 0 0 1-.655.756L14 6.612v7.638a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.5-1.5V6.612L.827 7.628a.5.5 0 1 1-.654-.756zM3 5.745v8.505a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V5.745L8 1.412z'
-        clipRule='evenodd'
-      />
-    </g>
-    <defs>
-      <clipPath id='9bb1294501327d4a9574047824f2bb4d__a'>
-        <path d='M0 0h16v16H0z' />
-      </clipPath>
-    </defs>
+    <path
+      fillRule='evenodd'
+      d='M7.673.372a.5.5 0 0 1 .654 0l7.5 6.5a.5.5 0 0 1-.655.756L14 6.612v7.638a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.5-1.5V6.612L.827 7.628a.5.5 0 1 1-.654-.756zM3 5.745v8.505a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V5.745L8 1.412z'
+      clipRule='evenodd'
+    />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyHomeNewIcon);

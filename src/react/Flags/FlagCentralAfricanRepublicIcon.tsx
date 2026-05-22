@@ -20,10 +20,10 @@ export const FlagCentralAfricanRepublicIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path fill='#002D84' d='M10 0H2a2 2 0 0 0-2 2v2h10zM14 0v4h10V2a2 2 0 0 0-2-2z' />
-    <path fill='#fff' d='M14 4h10v4H14zM10 4H0v4h10z' />
-    <path fill='#20981D' d='M14 8h10v4H14zM10 8H0v4h10z' />
-    <path fill='#FDD200' d='M10 12H0v2a2 2 0 0 0 2 2h8zM14 12v4h8a2 2 0 0 0 2-2v-2z' />
+    <path fill='#002D84' d='M10 0H2a2 2 0 0 0-2 2v2h10zm4 0v4h10V2a2 2 0 0 0-2-2z' />
+    <path fill='#fff' d='M14 4h10v4H14zm-4 0H0v4h10z' />
+    <path fill='#20981D' d='M14 8h10v4H14zm-4 0H0v4h10z' />
+    <path fill='#FDD200' d='M10 12H0v2a2 2 0 0 0 2 2h8zm4 0v4h8a2 2 0 0 0 2-2v-2z' />
     <path fill='#FFCF00' fillRule='evenodd' d='M3.833 1.833h.834v.834h-.834z' clipRule='evenodd' />
     <path
       fill='#A7972D'

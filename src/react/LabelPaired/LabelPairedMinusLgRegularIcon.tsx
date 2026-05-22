@@ -20,14 +20,7 @@ const LabelPairedMinusLgRegularIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M17.125 15.5a.64.64 0 0 1-.625.625h-15a.617.617 0 0 1-.625-.625c0-.312.273-.625.625-.625h15c.313 0 .625.313.625.625' />
-    </g>
-    <defs>
-      <clipPath id='c8cbd11508d0f7f434511878a19c5e01__a'>
-        <path d='M0 0h18v30H0z' />
-      </clipPath>
-    </defs>
+    <path d='M17.125 15.5a.64.64 0 0 1-.625.625h-15a.617.617 0 0 1-.625-.625c0-.312.273-.625.625-.625h15c.313 0 .625.313.625.625' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedMinusLgRegularIcon);

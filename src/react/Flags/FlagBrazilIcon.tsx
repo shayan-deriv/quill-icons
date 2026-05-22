@@ -39,7 +39,7 @@ export const FlagBrazilIcon = (
       d='M12 11.5c1.134 0 2.143-.54 2.782-1.376-1.731-1.72-3.849-2.464-6.263-2.494Q8.5 7.812 8.5 8a3.5 3.5 0 0 0 3.5 3.5m-2.5-3h1v1h-1zm1 1h1v1h-1zm3 0h-1v1h1z'
       clipRule='evenodd'
     />
-    <path fill='#D9D9D9' d='M9.5 8.5h1v1h-1zM10.5 9.5h1v1h-1zM12.5 9.5h1v1h-1z' />
+    <path fill='#D9D9D9' d='M9.5 8.5h1v1h-1zm1 1h1v1h-1zm2 0h1v1h-1z' />
     <path
       fill='#000'
       fillOpacity={0.08}

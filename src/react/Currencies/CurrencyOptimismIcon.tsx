@@ -20,7 +20,7 @@ export const CurrencyOptimismIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#3a3c463d6b9556b0b0e3148fe9fa811f__a)'>
+    <g clipPath='url(#34ee02fca)'>
       <path
         fill='#FF0421'
         d='M16.036 12.1a8.4 8.4 0 0 0 3.864 3.864v.072a8.4 8.4 0 0 0-3.864 3.864h-.072a8.4 8.4 0 0 0-3.864-3.864v-.072a8.4 8.4 0 0 0 3.864-3.864z'
@@ -37,7 +37,7 @@ export const CurrencyOptimismIcon = (
       />
     </g>
     <defs>
-      <clipPath id='3a3c463d6b9556b0b0e3148fe9fa811f__a'>
+      <clipPath id='34ee02fca'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

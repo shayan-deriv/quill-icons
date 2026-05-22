@@ -19,9 +19,7 @@ export const LegacyMenuDots1pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M9 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0M9 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0M9 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0' />
-    </g>
+    <path d='M9 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0m0 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0m0 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0' />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyMenuDots1pxIcon);

@@ -20,14 +20,7 @@ const LabelPairedWindowMinimizeLgBoldIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M.938 22.375h18.125a.95.95 0 0 1 .937.938c0 .546-.43.937-.937.937H.938c-.547 0-.938-.39-.938-.937 0-.508.39-.938.938-.938' />
-    </g>
-    <defs>
-      <clipPath id='f45be2bef7c7191fe2fe7d1af1134c67__a'>
-        <path d='M0 0h20v30H0z' />
-      </clipPath>
-    </defs>
+    <path d='M.938 22.375h18.125a.95.95 0 0 1 .937.938c0 .546-.43.937-.937.937H.938c-.547 0-.938-.39-.938-.937 0-.508.39-.938.938-.938' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedWindowMinimizeLgBoldIcon);

@@ -20,14 +20,7 @@ const LabelPairedWindowMinimizeMdBoldIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M.75 17.5h14.5a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75H.75a.72.72 0 0 1-.75-.75.74.74 0 0 1 .75-.75' />
-    </g>
-    <defs>
-      <clipPath id='2a019bd441e3e547373e83e9615e693e__a'>
-        <path d='M0 0h16v24H0z' />
-      </clipPath>
-    </defs>
+    <path d='M.75 17.5h14.5a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75H.75a.72.72 0 0 1-.75-.75.74.74 0 0 1 .75-.75' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedWindowMinimizeMdBoldIcon);

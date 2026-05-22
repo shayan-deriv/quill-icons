@@ -19,14 +19,12 @@ export const LegacyTradeTypeMultipliersIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path
-        fillRule='evenodd'
-        d='M13.138 2.155A.5.5 0 0 1 13.5 2h2a.5.5 0 0 1 0 1h-1.786L3.362 13.845A.5.5 0 0 1 3 14H.5a.5.5 0 0 1 0-1h2.286z'
-        clipRule='evenodd'
-      />
-      <path d='m6.09 6.642.692-.725L3.37 2.164A.5.5 0 0 0 3 2H.5a.5.5 0 0 0 0 1h2.279zM9.462 10.351l.692-.725L13.221 13H15.5a.5.5 0 0 1 0 1H13a.5.5 0 0 1-.37-.164z' />
-    </g>
+    <path
+      fillRule='evenodd'
+      d='M13.138 2.155A.5.5 0 0 1 13.5 2h2a.5.5 0 0 1 0 1h-1.786L3.362 13.845A.5.5 0 0 1 3 14H.5a.5.5 0 0 1 0-1h2.286z'
+      clipRule='evenodd'
+    />
+    <path d='m6.09 6.642.692-.725L3.37 2.164A.5.5 0 0 0 3 2H.5a.5.5 0 0 0 0 1h2.279zm3.372 3.709.692-.725L13.221 13H15.5a.5.5 0 0 1 0 1H13a.5.5 0 0 1-.37-.164z' />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyTradeTypeMultipliersIcon);

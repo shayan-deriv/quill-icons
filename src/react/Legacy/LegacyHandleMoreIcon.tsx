@@ -19,18 +19,11 @@ export const LegacyHandleMoreIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path
-        fillRule='evenodd'
-        d='M.226 10.71a1.5 1.5 0 0 1 2.065-.484L16 18.735l13.709-8.51a1.5 1.5 0 0 1 1.582 2.55l-14.5 9a1.5 1.5 0 0 1-1.582 0l-14.5-9a1.5 1.5 0 0 1-.483-2.066'
-        clipRule='evenodd'
-      />
-    </g>
-    <defs>
-      <clipPath id='54c2a03f66ec2b6c336822fe7b7b307e__a'>
-        <path d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
+    <path
+      fillRule='evenodd'
+      d='M.226 10.71a1.5 1.5 0 0 1 2.065-.484L16 18.735l13.709-8.51a1.5 1.5 0 0 1 1.582 2.55l-14.5 9a1.5 1.5 0 0 1-1.582 0l-14.5-9a1.5 1.5 0 0 1-.483-2.066'
+      clipRule='evenodd'
+    />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyHandleMoreIcon);

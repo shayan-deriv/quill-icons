@@ -20,14 +20,7 @@ const LabelPairedMicrosoftXlIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M0 7.5h10.031v10.078H0zm10.922 0H21v10.078H10.922zM0 18.469h10.031V28.5H0zm10.922 0H21V28.5H10.922z' />
-    </g>
-    <defs>
-      <clipPath id='47668c5a7a8c9f0be33bc560cbc6d2fc__a'>
-        <path d='M0 0h21v36H0z' />
-      </clipPath>
-    </defs>
+    <path d='M0 7.5h10.031v10.078H0zm10.922 0H21v10.078H10.922zM0 18.469h10.031V28.5H0zm10.922 0H21V28.5H10.922z' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedMicrosoftXlIcon);

@@ -19,20 +19,9 @@ export const LegacyTurboIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M0 14h1.667v1H0zM3.667 14h1.666v1H3.667zM7.333 14H9v1H7.333zM12 13h4v3h-4l-1.5-1.5z' />
-      <path
-        fillRule='evenodd'
-        d='M0 .5A.5.5 0 0 1 .5 0H9v1H.5A.5.5 0 0 1 0 .5'
-        clipRule='evenodd'
-      />
-      <path d='M15.5 0a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V1.707L6.854 9.854a.5.5 0 0 1-.708 0L2.5 6.207 0 8.707V7.293l2.146-2.147a.5.5 0 0 1 .708 0L6.5 8.793 14.293 1H11V0z' />
-    </g>
-    <defs>
-      <clipPath id='3921761cc9d14581d6ca49da220df940__a'>
-        <path d='M0 0h16v16H0z' />
-      </clipPath>
-    </defs>
+    <path d='M0 14h1.667v1H0zm3.667 0h1.666v1H3.667zm3.666 0H9v1H7.333zM12 13h4v3h-4l-1.5-1.5z' />
+    <path fillRule='evenodd' d='M0 .5A.5.5 0 0 1 .5 0H9v1H.5A.5.5 0 0 1 0 .5' clipRule='evenodd' />
+    <path d='M15.5 0a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V1.707L6.854 9.854a.5.5 0 0 1-.708 0L2.5 6.207 0 8.707V7.293l2.146-2.147a.5.5 0 0 1 .708 0L6.5 8.793 14.293 1H11V0z' />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyTurboIcon);

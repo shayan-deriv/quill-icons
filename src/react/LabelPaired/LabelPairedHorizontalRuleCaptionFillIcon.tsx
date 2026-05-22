@@ -20,14 +20,7 @@ const LabelPairedHorizontalRuleCaptionFillIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M0 9.5c0-.398.328-.75.75-.75h13.5c.398 0 .75.352.75.75 0 .422-.352.75-.75.75H.75A.74.74 0 0 1 0 9.5' />
-    </g>
-    <defs>
-      <clipPath id='e56b78205ec3692b0a677095344a26f1__a'>
-        <path d='M0 0h15v18H0z' />
-      </clipPath>
-    </defs>
+    <path d='M0 9.5c0-.398.328-.75.75-.75h13.5c.398 0 .75.352.75.75 0 .422-.352.75-.75.75H.75A.74.74 0 0 1 0 9.5' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedHorizontalRuleCaptionFillIcon);

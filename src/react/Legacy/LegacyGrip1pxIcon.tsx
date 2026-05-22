@@ -19,14 +19,12 @@ export const LegacyGrip1pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <circle cx={6} cy={4} r={1} />
-      <circle cx={10} cy={4} r={1} />
-      <circle cx={6} cy={8} r={1} />
-      <circle cx={10} cy={8} r={1} />
-      <circle cx={6} cy={12} r={1} />
-      <circle cx={10} cy={12} r={1} />
-    </g>
+    <circle cx={6} cy={4} r={1} />
+    <circle cx={10} cy={4} r={1} />
+    <circle cx={6} cy={8} r={1} />
+    <circle cx={10} cy={8} r={1} />
+    <circle cx={6} cy={12} r={1} />
+    <circle cx={10} cy={12} r={1} />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyGrip1pxIcon);

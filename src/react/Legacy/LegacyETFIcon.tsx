@@ -23,7 +23,7 @@ export const LegacyETFIcon = (
     <path
       fill='#fff'
       fillRule='evenodd'
-      d='M23.665 22.667h-2.89v-12H28v2.999h-4.335v1.5H28v3h-4.335zM11.804 10.667h8.67v2.999h-2.89v9h-2.89v-9h-2.89z'
+      d='M23.665 22.667h-2.89v-12H28v2.999h-4.335v1.5H28v3h-4.335zm-11.861-12h8.67v2.999h-2.89v9h-2.89v-9h-2.89z'
       clipRule='evenodd'
     />
     <path
