@@ -20,14 +20,14 @@ export const MarketStocksAdvancedMicroDevicesIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#02e58758de2e48d2a3d5cc9f1d72e350__a)'>
+    <g clipPath='url(#b91ed773a)'>
       <path
         fill='#221F20'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
       />
       <path
         fill='#fff'
-        d='M22.587 12.835H29v6.331L27.034 17.2v-2.546h-2.587zM22.653 16.491V19h2.437l1.7-1.797h-2.339v-2.355z'
+        d='M22.587 12.835H29v6.331L27.034 17.2v-2.546h-2.587zm.066 3.656V19h2.437l1.7-1.797h-2.339v-2.355z'
       />
       <path
         fill='#fff'
@@ -47,7 +47,7 @@ export const MarketStocksAdvancedMicroDevicesIcon = (
       />
     </g>
     <defs>
-      <clipPath id='02e58758de2e48d2a3d5cc9f1d72e350__a'>
+      <clipPath id='b91ed773a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

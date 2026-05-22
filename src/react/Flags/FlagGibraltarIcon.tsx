@@ -23,7 +23,7 @@ export const FlagGibraltarIcon = (
     <path fill='#DA000C' d='M11.25 11v1H9.5v2h3.25v-3H24v3a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-3z' />
     <path
       fill='#fff'
-      d='M22 0H2a2 2 0 0 0-2 2v9h11.25v-.114A2.5 2.5 0 0 1 10 10H5V5H4V3h2v1h1V3h2v2H8v1h2.5V4h-1V2h2v1h1V2h2v2h-1v2H16V5h-1V3h2v1h1V3h2v2h-1v5h-5c-.31.413-.746.727-1.25.886V11H24V2a2 2 0 0 0-2-2'
+      d='M22 0H2a2 2 0 0 0-2 2v9h11.25v-.114A2.5 2.5 0 0 1 10 10H5V5H4V3h2v1h1V3h2v2H8v1h2.5V4h-1V2h2v1h1V2h2v2h-1v2H16V5h-1V3h2v1h1V3h2v2h-1v5h-5a2.5 2.5 0 0 1-1.25.886V11H24V2a2 2 0 0 0-2-2'
     />
     <path
       fill='#DA000C'

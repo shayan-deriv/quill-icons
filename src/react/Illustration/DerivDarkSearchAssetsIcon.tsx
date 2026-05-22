@@ -25,7 +25,7 @@ const DerivDarkSearchAssetsIcon = (
     />
     <path
       fill='#6E6E6E'
-      d='M62 18H26a2 2 0 1 0 0 4h36a2 2 0 1 0 0-4M62 26H26a2 2 0 1 0 0 4h36a2 2 0 1 0 0-4M42 34H26a2 2 0 1 0 0 4h16a2 2 0 1 0 0-4M32 76v12L12 68h12a8 8 0 0 1 8 8'
+      d='M62 18H26a2 2 0 1 0 0 4h36a2 2 0 1 0 0-4m0 8H26a2 2 0 1 0 0 4h36a2 2 0 1 0 0-4m-20 8H26a2 2 0 1 0 0 4h16a2 2 0 1 0 0-4M32 76v12L12 68h12a8 8 0 0 1 8 8'
     />
     <path
       fill='#6E6E6E'

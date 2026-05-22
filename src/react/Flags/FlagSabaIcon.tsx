@@ -27,7 +27,7 @@ export const FlagSabaIcon = (
       d='M12 10.633 9.402 12l.496-2.895-2.101-2.051 2.905-.42L12.001 4l1.298 2.635 2.905.419L14.1 9.105l.499 2.893'
       clipRule='evenodd'
     />
-    <path fill='#DC171D' d='M0 2a2 2 0 0 1 2-2h10L0 8zM24 8V2a2 2 0 0 0-2-2H12z' />
+    <path fill='#DC171D' d='M0 2a2 2 0 0 1 2-2h10L0 8zm24 6V2a2 2 0 0 0-2-2H12z' />
     <path fill='#012A87' d='m24 8-12 8L0 8v6a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2z' />
     <path
       fill='#000'

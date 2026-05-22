@@ -19,14 +19,7 @@ export const LegacyInfoXsIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M4 0a4 4 0 1 1 0 8 4 4 0 0 1 0-8m0 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6m0 2.5a.5.5 0 0 1 .5.5v1.5a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5M4 2a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1' />
-    </g>
-    <defs>
-      <clipPath id='f3f5775fc96f40498caf2bee962e7ca4__a'>
-        <path d='M0 0h8v8H0z' />
-      </clipPath>
-    </defs>
+    <path d='M4 0a4 4 0 1 1 0 8 4 4 0 0 1 0-8m0 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6m0 2.5a.5.5 0 0 1 .5.5v1.5a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5M4 2a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1' />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyInfoXsIcon);

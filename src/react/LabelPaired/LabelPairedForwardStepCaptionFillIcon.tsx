@@ -20,14 +20,7 @@ const LabelPairedForwardStepCaptionFillIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M1.469 13.836a.71.71 0 0 1-.797.094.73.73 0 0 1-.422-.68v-7.5c0-.281.164-.54.422-.68a.77.77 0 0 1 .797.117l4.5 3.75.281.211V5.75c0-.398.328-.75.75-.75.398 0 .75.352.75.75v7.5c0 .422-.352.75-.75.75a.74.74 0 0 1-.75-.75V9.852l-.281.234z' />
-    </g>
-    <defs>
-      <clipPath id='9f4a3429b8660e5338bbdd9e081e3e7e__a'>
-        <path d='M0 0h8v18H0z' />
-      </clipPath>
-    </defs>
+    <path d='M1.469 13.836a.71.71 0 0 1-.797.094.73.73 0 0 1-.422-.68v-7.5c0-.281.164-.54.422-.68a.77.77 0 0 1 .797.117l4.5 3.75.281.211V5.75c0-.398.328-.75.75-.75.398 0 .75.352.75.75v7.5c0 .422-.352.75-.75.75a.74.74 0 0 1-.75-.75V9.852l-.281.234z' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedForwardStepCaptionFillIcon);

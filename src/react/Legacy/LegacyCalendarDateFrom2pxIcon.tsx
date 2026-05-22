@@ -19,14 +19,12 @@ export const LegacyCalendarDateFrom2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M5.661 11.75a1 1 0 1 1 0-1.5H11a.75.75 0 0 1 0 1.5zM4.25 9A.75.75 0 0 1 5 8.25h6.75v1.5H5A.75.75 0 0 1 4.25 9' />
-      <path
-        fillRule='evenodd'
-        d='M6 2a1 1 0 0 0-2 0 3 3 0 0 0-3 3v7a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3 1 1 0 1 0-2 0zm6 2a1 1 0 0 1 1 1H3a1 1 0 0 1 1-1zm-9 8V7h10v5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1'
-        clipRule='evenodd'
-      />
-    </g>
+    <path d='M5.661 11.75a1 1 0 1 1 0-1.5H11a.75.75 0 0 1 0 1.5zM4.25 9A.75.75 0 0 1 5 8.25h6.75v1.5H5A.75.75 0 0 1 4.25 9' />
+    <path
+      fillRule='evenodd'
+      d='M6 2a1 1 0 0 0-2 0 3 3 0 0 0-3 3v7a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3 1 1 0 1 0-2 0zm6 2a1 1 0 0 1 1 1H3a1 1 0 0 1 1-1zm-9 8V7h10v5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1'
+      clipRule='evenodd'
+    />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyCalendarDateFrom2pxIcon);

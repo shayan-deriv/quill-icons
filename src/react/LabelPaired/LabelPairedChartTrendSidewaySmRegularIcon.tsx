@@ -20,14 +20,7 @@ const LabelPairedChartTrendSidewaySmRegularIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M.688 10.75a.45.45 0 0 1 .437-.437h15.75a.47.47 0 0 1 .438.437.45.45 0 0 1-.438.438H1.125a.43.43 0 0 1-.437-.438' />
-    </g>
-    <defs>
-      <clipPath id='f3d1b9d9b277f3cb955ffe4e0ccfee21__a'>
-        <path d='M0 0h18v22H0z' />
-      </clipPath>
-    </defs>
+    <path d='M.688 10.75a.45.45 0 0 1 .437-.437h15.75a.47.47 0 0 1 .438.437.45.45 0 0 1-.438.438H1.125a.43.43 0 0 1-.437-.438' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedChartTrendSidewaySmRegularIcon);

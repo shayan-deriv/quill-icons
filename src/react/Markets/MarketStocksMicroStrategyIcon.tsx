@@ -20,7 +20,7 @@ export const MarketStocksMicroStrategyIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#8749723680c04ed4f9a267da68da1933__a)'>
+    <g clipPath='url(#db746aa3a)'>
       <path
         fill='#D9232E'
         d='M15.992 31.998c-8.843 0-15.99-7.147-15.99-15.99 0-8.84 7.147-15.99 15.99-15.99 8.841 0 15.99 7.15 15.99 15.99 0 8.843-7.149 15.99-15.99 15.99'
@@ -28,12 +28,12 @@ export const MarketStocksMicroStrategyIcon = (
       <path
         fill='#fff'
         fillRule='evenodd'
-        d='m19.982 9.734 4.016 3.987v8.545h-4.016zM13.99 9.734h4.017v12.532h-4.016zM8.002 9.734h4.017v12.532H8.002z'
+        d='m19.982 9.734 4.016 3.987v8.545h-4.016zm-5.992 0h4.017v12.532h-4.016zm-5.988 0h4.017v12.532H8.002z'
         clipRule='evenodd'
       />
     </g>
     <defs>
-      <clipPath id='8749723680c04ed4f9a267da68da1933__a'>
+      <clipPath id='db746aa3a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

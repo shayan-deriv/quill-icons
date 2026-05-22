@@ -20,14 +20,7 @@ const LabelPairedWindowMaximizeMdFillIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M2 5h12c1.094 0 2 .906 2 2v10c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2V7c0-1.094.875-2 2-2m1 2c-.562 0-1 .469-1 1 0 .563.438 1 1 1h10c.531 0 1-.437 1-1 0-.531-.469-1-1-1z' />
-    </g>
-    <defs>
-      <clipPath id='5b3c41418090ec4ed475b7b6cb25b580__a'>
-        <path d='M0 0h16v24H0z' />
-      </clipPath>
-    </defs>
+    <path d='M2 5h12c1.094 0 2 .906 2 2v10c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2V7c0-1.094.875-2 2-2m1 2c-.562 0-1 .469-1 1 0 .563.438 1 1 1h10c.531 0 1-.437 1-1 0-.531-.469-1-1-1z' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedWindowMaximizeMdFillIcon);

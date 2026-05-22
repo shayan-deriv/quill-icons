@@ -20,7 +20,7 @@ export const TradeTypesVanillaCallIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path fill='#85ACB0' d='M24 16h2.667v5.333H24zM12.667 24h14v2.667H10z' />
+    <path fill='#85ACB0' d='M24 16h2.667v5.333H24zm-11.333 8h14v2.667H10z' />
     <path
       fill='#FF444F'
       d='M22.115 8H20a2.667 2.667 0 0 1-2.667-2.667h9.334v8H24V9.886L7.22 26.666H5.333v-1.885z'

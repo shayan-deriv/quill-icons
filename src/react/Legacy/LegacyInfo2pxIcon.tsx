@@ -19,19 +19,12 @@ export const LegacyInfo2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M8 7a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0V8a1 1 0 0 1 1-1M8 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2' />
-      <path
-        fillRule='evenodd'
-        d='M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m0-2A6 6 0 1 0 8 2a6 6 0 0 0 0 12'
-        clipRule='evenodd'
-      />
-    </g>
-    <defs>
-      <clipPath id='c30b907ea7f366a32a401b8728260061__a'>
-        <path d='M0 0h16v16H0z' />
-      </clipPath>
-    </defs>
+    <path d='M8 7a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0V8a1 1 0 0 1 1-1m0-1a1 1 0 1 0 0-2 1 1 0 0 0 0 2' />
+    <path
+      fillRule='evenodd'
+      d='M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m0-2A6 6 0 1 0 8 2a6 6 0 0 0 0 12'
+      clipRule='evenodd'
+    />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyInfo2pxIcon);

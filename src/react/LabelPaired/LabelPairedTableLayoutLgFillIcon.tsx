@@ -20,14 +20,7 @@ const LabelPairedTableLayoutLgFillIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M2.5 6.75h15c1.367 0 2.5 1.133 2.5 2.5v12.5c0 1.406-1.133 2.5-2.5 2.5h-15a2.47 2.47 0 0 1-2.5-2.5V9.25c0-1.367 1.094-2.5 2.5-2.5m15 2.5h-15v2.5h15zm-15 5v7.5H5v-7.5zm15 0h-10v7.5h10z' />
-    </g>
-    <defs>
-      <clipPath id='2f8f0fb92cfacd6f03412f5a9af65211__a'>
-        <path d='M0 0h20v30H0z' />
-      </clipPath>
-    </defs>
+    <path d='M2.5 6.75h15c1.367 0 2.5 1.133 2.5 2.5v12.5c0 1.406-1.133 2.5-2.5 2.5h-15a2.47 2.47 0 0 1-2.5-2.5V9.25c0-1.367 1.094-2.5 2.5-2.5m15 2.5h-15v2.5h15zm-15 5v7.5H5v-7.5zm15 0h-10v7.5h10z' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedTableLayoutLgFillIcon);

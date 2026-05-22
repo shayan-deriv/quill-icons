@@ -20,14 +20,7 @@ const LabelPairedFileSmFillIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M.25 5.5c0-.957.766-1.75 1.75-1.75h4.375v3.5c0 .492.383.875.875.875h3.5V16c0 .984-.793 1.75-1.75 1.75H2c-.984 0-1.75-.766-1.75-1.75zm10.5 1.75h-3.5v-3.5z' />
-    </g>
-    <defs>
-      <clipPath id='3c3cc30c6fb20c3f83c7201e8755fcd9__a'>
-        <path d='M0 0h11v22H0z' />
-      </clipPath>
-    </defs>
+    <path d='M.25 5.5c0-.957.766-1.75 1.75-1.75h4.375v3.5c0 .492.383.875.875.875h3.5V16c0 .984-.793 1.75-1.75 1.75H2c-.984 0-1.75-.766-1.75-1.75zm10.5 1.75h-3.5v-3.5z' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedFileSmFillIcon);

@@ -20,14 +20,7 @@ const LabelPairedMinusSmRegularIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M12.188 10.75a.45.45 0 0 1-.438.438H1.25a.43.43 0 0 1-.437-.438.45.45 0 0 1 .437-.437h10.5a.47.47 0 0 1 .438.437' />
-    </g>
-    <defs>
-      <clipPath id='75460ada5708fc4b16b3c01ad0d9a750__a'>
-        <path d='M0 0h13v22H0z' />
-      </clipPath>
-    </defs>
+    <path d='M12.188 10.75a.45.45 0 0 1-.438.438H1.25a.43.43 0 0 1-.437-.438.45.45 0 0 1 .437-.437h10.5a.47.47 0 0 1 .438.437' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedMinusSmRegularIcon);

@@ -19,19 +19,12 @@ export const LegacyPlusCircle2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M7 5a1 1 0 0 1 2 0v2h2a1 1 0 1 1 0 2H9v2a1 1 0 1 1-2 0V9H5a1 1 0 0 1 0-2h2z' />
-      <path
-        fillRule='evenodd'
-        d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-2 0A6 6 0 1 1 2 8a6 6 0 0 1 12 0'
-        clipRule='evenodd'
-      />
-    </g>
-    <defs>
-      <clipPath id='0c4b50ef66b9719524f300f5a36412bb__a'>
-        <rect width={16} height={16} rx={8} />
-      </clipPath>
-    </defs>
+    <path d='M7 5a1 1 0 0 1 2 0v2h2a1 1 0 1 1 0 2H9v2a1 1 0 1 1-2 0V9H5a1 1 0 0 1 0-2h2z' />
+    <path
+      fillRule='evenodd'
+      d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-2 0A6 6 0 1 1 2 8a6 6 0 0 1 12 0'
+      clipRule='evenodd'
+    />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyPlusCircle2pxIcon);

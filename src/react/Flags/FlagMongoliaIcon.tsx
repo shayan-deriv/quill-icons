@@ -37,10 +37,7 @@ export const FlagMongoliaIcon = (
       clipRule='evenodd'
     />
     <path fill='#FAD000' fillRule='evenodd' d='M2.5 8h1v4h-1zm3 0h1v4h-1z' clipRule='evenodd' />
-    <path
-      fill='#FAD000'
-      d='M4.5 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2M4.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2'
-    />
+    <path fill='#FAD000' d='M4.5 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0-3a1 1 0 1 0 0-2 1 1 0 0 0 0 2' />
     <path fill='#FAD000' fillRule='evenodd' d='m4.5 4 1 2h-2z' clipRule='evenodd' />
   </svg>
 );

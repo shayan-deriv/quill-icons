@@ -20,14 +20,7 @@ const LabelPairedCaretUpXlFillIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='m8.531 12.469 6 6c.422.422.563 1.078.328 1.64-.234.563-.796.938-1.359.938h-12c-.61 0-1.172-.375-1.406-.938a1.52 1.52 0 0 1 .328-1.64l6-6a1.445 1.445 0 0 1 2.11 0' />
-    </g>
-    <defs>
-      <clipPath id='398566d9fe6d1d9e02de9c24d00f37f5__a'>
-        <path d='M0 0h15v36H0z' />
-      </clipPath>
-    </defs>
+    <path d='m8.531 12.469 6 6c.422.422.563 1.078.328 1.64-.234.563-.796.938-1.359.938h-12c-.61 0-1.172-.375-1.406-.938a1.52 1.52 0 0 1 .328-1.64l6-6a1.445 1.445 0 0 1 2.11 0' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedCaretUpXlFillIcon);

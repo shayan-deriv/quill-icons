@@ -20,14 +20,7 @@ const LabelPairedArrowLeftSmRegularIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='m.484 10.45 4.813-4.813a.463.463 0 0 1 .629 0 .463.463 0 0 1 0 .629l-4.074 4.047h10.336a.47.47 0 0 1 .437.437.45.45 0 0 1-.437.438H1.851l4.074 4.074a.463.463 0 0 1 0 .629.463.463 0 0 1-.63 0L.485 11.078a.463.463 0 0 1 0-.629' />
-    </g>
-    <defs>
-      <clipPath id='f8c0d2f2042390f6f52af25c93ab4e8c__a'>
-        <path d='M0 0h13v22H0z' />
-      </clipPath>
-    </defs>
+    <path d='m.484 10.45 4.813-4.813a.463.463 0 0 1 .629 0 .463.463 0 0 1 0 .629l-4.074 4.047h10.336a.47.47 0 0 1 .437.437.45.45 0 0 1-.437.438H1.851l4.074 4.074a.463.463 0 0 1 0 .629.463.463 0 0 1-.63 0l-4.81-4.813a.463.463 0 0 1 0-.629' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedArrowLeftSmRegularIcon);

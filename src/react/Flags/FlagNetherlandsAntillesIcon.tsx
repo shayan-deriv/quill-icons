@@ -21,11 +21,11 @@ export const FlagNetherlandsAntillesIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path fill='#fff' d='M0 2a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z' />
-    <path fill='#DC171D' d='M9 0h6v5H9zM9 11h6v5H9z' />
+    <path fill='#DC171D' d='M9 0h6v5H9zm0 11h6v5H9z' />
     <path fill='#012A87' d='M0 5h24v6H0z' />
     <path
       fill='#fff'
-      d='M9.5 7.5h-1v1h1zM11.5 9h-1v1h1zM13.5 9h-1v1h1zM15.5 7.5h-1v1h1zM11.5 6h-1v1h1zM13.5 6h-1v1h1z'
+      d='M9.5 7.5h-1v1h1zm2 1.5h-1v1h1zm2 0h-1v1h1zm2-1.5h-1v1h1zm-4-1.5h-1v1h1zm2 0h-1v1h1z'
     />
     <path
       fill='#000'

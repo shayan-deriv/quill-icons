@@ -13,6 +13,7 @@ export { default as AccountsDerivCtraderIcon } from './AccountsDerivCtraderIcon'
 export { default as AccountsDerivNakalaIcon } from './AccountsDerivNakalaIcon';
 export { default as AccountsDerivNakalaBlackIcon } from './AccountsDerivNakalaBlackIcon';
 export { default as AccountsDerivNakalaWhiteIcon } from './AccountsDerivNakalaWhiteIcon';
+export { default as AccountsDmt5CryptoIcon } from './AccountsDmt5CryptoIcon';
 export { default as AccountsMt5StandardFinancialVanuatuLightIcon } from './AccountsMt5StandardFinancialVanuatuLightIcon';
 export { default as AccountsMt5StandardFinancialBviLightIcon } from './AccountsMt5StandardFinancialBviLightIcon';
 export { default as AccountsMt5StandardVanuatuLightIcon } from './AccountsMt5StandardVanuatuLightIcon';

@@ -24,7 +24,7 @@ export const FlagElSalvadorIcon = (
     <path fill='#fff' d='M24 5H0v6h24z' />
     <path fill='#0047AB' d='M2 0h20a2 2 0 0 1 2 2v3H0V2a2 2 0 0 1 2-2' />
     <path
-      fill='url(#899df83b90d22f8ac00c28388e2169fe__a)'
+      fill='url(#0f54779ca)'
       fillRule='evenodd'
       d='M10.4 5.867a2.667 2.667 0 1 0 3.2 0l-.933 2.8h-1.334z'
       clipRule='evenodd'
@@ -38,14 +38,7 @@ export const FlagElSalvadorIcon = (
       clipRule='evenodd'
     />
     <defs>
-      <linearGradient
-        id='899df83b90d22f8ac00c28388e2169fe__a'
-        x1={0}
-        x2={0}
-        y1={0}
-        y2={16}
-        gradientUnits='userSpaceOnUse'
-      >
+      <linearGradient id='0f54779ca' x1={0} x2={0} y1={0} y2={16} gradientUnits='userSpaceOnUse'>
         <stop stopColor='#3C7839' />
         <stop offset={1} stopColor='#31642E' />
       </linearGradient>

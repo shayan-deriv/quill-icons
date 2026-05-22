@@ -30,7 +30,7 @@ export const FlagKenyaIcon = (
       d='M22 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z'
       clipRule='evenodd'
     />
-    <path fill='#fff' d='M24 4H0v1h24zM24 11H0v1h24z' />
+    <path fill='#fff' d='M24 4H0v1h24zm0 7H0v1h24z' />
     <path
       fill='#BD0000'
       fillRule='evenodd'

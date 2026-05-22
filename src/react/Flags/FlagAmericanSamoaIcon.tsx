@@ -20,7 +20,7 @@ export const FlagAmericanSamoaIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path fill='#006' d='M2 0h16L0 8V2a2 2 0 0 1 2-2M18 16 0 8v6a2 2 0 0 0 2 2z' />
+    <path fill='#006' d='M2 0h16L0 8V2a2 2 0 0 1 2-2m16 16L0 8v6a2 2 0 0 0 2 2z' />
     <path fill='#BD1021' d='M22 16 4 8l18-8h-4L0 8l18 8z' />
     <path
       fill='#fff'

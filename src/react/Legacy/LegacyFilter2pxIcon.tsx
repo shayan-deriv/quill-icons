@@ -19,9 +19,7 @@ export const LegacyFilter2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M1 5a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H2a1 1 0 0 1-1-1M3 8a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1M6 10a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2z' />
-    </g>
+    <path d='M1 5a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H2a1 1 0 0 1-1-1m2 3a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1m3 2a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2z' />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyFilter2pxIcon);

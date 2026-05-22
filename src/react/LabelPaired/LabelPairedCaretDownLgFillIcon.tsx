@@ -20,14 +20,7 @@ const LabelPairedCaretDownLgFillIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='m5.602 20.148-5-5a1.26 1.26 0 0 1-.274-1.367A1.28 1.28 0 0 1 1.5 13h10c.508 0 .938.313 1.133.781a1.26 1.26 0 0 1-.274 1.367l-5 5a1.205 1.205 0 0 1-1.757 0' />
-    </g>
-    <defs>
-      <clipPath id='7afcb463d92b0dc2ea3096b5ff0a1d7c__a'>
-        <path d='M0 0h13v30H0z' />
-      </clipPath>
-    </defs>
+    <path d='m5.602 20.148-5-5a1.26 1.26 0 0 1-.274-1.367A1.28 1.28 0 0 1 1.5 13h10c.508 0 .938.313 1.133.781a1.26 1.26 0 0 1-.274 1.367l-5 5a1.205 1.205 0 0 1-1.757 0' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedCaretDownLgFillIcon);

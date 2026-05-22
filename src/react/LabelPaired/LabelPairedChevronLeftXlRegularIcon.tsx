@@ -20,14 +20,7 @@ const LabelPairedChevronLeftXlRegularIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M.938 18.563c-.282-.282-.282-.797 0-1.079l9-9c.28-.28.796-.28 1.078 0 .28.282.28.797 0 1.079L2.53 18l8.485 8.484c.28.282.28.797 0 1.078-.282.282-.797.282-1.078 0z' />
-    </g>
-    <defs>
-      <clipPath id='1c470db8d2fe43305350fbbbc59b28c9__a'>
-        <path d='M0 0h15v36H0z' />
-      </clipPath>
-    </defs>
+    <path d='M.938 18.563a.794.794 0 0 1 0-1.079l9-9c.28-.28.796-.28 1.078 0 .28.282.28.797 0 1.079L2.53 18l8.485 8.484c.28.282.28.797 0 1.078-.282.282-.797.282-1.078 0z' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedChevronLeftXlRegularIcon);

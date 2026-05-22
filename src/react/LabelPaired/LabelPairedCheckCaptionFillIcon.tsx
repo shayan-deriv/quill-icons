@@ -20,14 +20,7 @@ const LabelPairedCheckCaptionFillIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M10.516 5.984a.723.723 0 0 1 0 1.055l-6 6a.723.723 0 0 1-1.055 0l-3-3a.723.723 0 0 1 0-1.055.723.723 0 0 1 1.055 0L4 11.445l5.46-5.46a.723.723 0 0 1 1.056 0' />
-    </g>
-    <defs>
-      <clipPath id='3f727246382f48e0853ca97c4a3eb329__a'>
-        <path d='M0 0h11v18H0z' />
-      </clipPath>
-    </defs>
+    <path d='M10.516 5.984a.723.723 0 0 1 0 1.055l-6 6a.723.723 0 0 1-1.055 0l-3-3a.723.723 0 0 1 0-1.055.723.723 0 0 1 1.055 0L4 11.445l5.46-5.46a.723.723 0 0 1 1.056 0' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedCheckCaptionFillIcon);

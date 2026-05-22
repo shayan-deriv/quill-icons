@@ -19,18 +19,11 @@ export const LegacyArrowDown2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path
-        fillRule='evenodd'
-        d='M8 0a1 1 0 0 1 1 1v11.586l5.293-5.293a1 1 0 1 1 1.414 1.414l-7 7a1 1 0 0 1-1.414 0l-7-7a1 1 0 0 1 1.414-1.414L7 12.586V1a1 1 0 0 1 1-1'
-        clipRule='evenodd'
-      />
-    </g>
-    <defs>
-      <clipPath id='1ce55835bef4cfce5e9fb3e227c82af2__a'>
-        <path d='M0 0h16v16H0z' />
-      </clipPath>
-    </defs>
+    <path
+      fillRule='evenodd'
+      d='M8 0a1 1 0 0 1 1 1v11.586l5.293-5.293a1 1 0 1 1 1.414 1.414l-7 7a1 1 0 0 1-1.414 0l-7-7a1 1 0 0 1 1.414-1.414L7 12.586V1a1 1 0 0 1 1-1'
+      clipRule='evenodd'
+    />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyArrowDown2pxIcon);

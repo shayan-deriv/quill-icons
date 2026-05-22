@@ -19,14 +19,14 @@ const DerivLightIcPoaLockIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#39271ec1eb9d391bf869bb1a15fac949__a)'>
+    <g clipPath='url(#48d70df3a)'>
       <path
         fill='#E0F0F0'
         d='M98 120H16c-5.523 0-10-4.477-10-10V12C6 6.477 10.477 2 16 2h70.37L108 23.64V110c0 5.523-4.477 10-10 10'
       />
       <path
         fill='#fff'
-        d='M91.88 39.65H22.12a3 3 0 0 0-3 3v.68a3 3 0 0 0 3 3h69.76a3 3 0 0 0 3-3v-.68a3 3 0 0 0-3-3M91.88 53.98H22.12a3 3 0 0 0-3 3v.68a3 3 0 0 0 3 3h69.76a3 3 0 0 0 3-3v-.68a3 3 0 0 0-3-3M57.23 70.3H22.12a3 3 0 0 0-3 3v.68a3 3 0 0 0 3 3h35.11a3 3 0 0 0 3-3v-.68a3 3 0 0 0-3-3'
+        d='M91.88 39.65H22.12a3 3 0 0 0-3 3v.68a3 3 0 0 0 3 3h69.76a3 3 0 0 0 3-3v-.68a3 3 0 0 0-3-3m0 14.33H22.12a3 3 0 0 0-3 3v.68a3 3 0 0 0 3 3h69.76a3 3 0 0 0 3-3v-.68a3 3 0 0 0-3-3M57.23 70.3H22.12a3 3 0 0 0-3 3v.68a3 3 0 0 0 3 3h35.11a3 3 0 0 0 3-3v-.68a3 3 0 0 0-3-3'
       />
       <path fill='#BBCCCE' d='M108 23.65H96.38c-5.523 0-10-4.477-10-10V2z' />
       <path
@@ -43,7 +43,7 @@ const DerivLightIcPoaLockIcon = (
       />
     </g>
     <defs>
-      <clipPath id='39271ec1eb9d391bf869bb1a15fac949__a'>
+      <clipPath id='48d70df3a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

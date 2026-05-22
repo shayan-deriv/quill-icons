@@ -19,10 +19,10 @@ const DerivLightUnreadEmailNotificationIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#5a43c766be542f080f253b4be90c7564__a)'>
+    <g clipPath='url(#02ece03aa)'>
       <path
         fill='#85ACB0'
-        d='M.09 49.01v43.317L28.048 70.99zM88.63 49.01v43.317L60.674 70.99zM4.518 101.909h79.685a4.44 4.44 0 0 0 4.427-4.427v-.642L44.405 62.044.09 96.84v.642a4.44 4.44 0 0 0 4.427 4.427'
+        d='M.09 49.01v43.317L28.048 70.99zm88.54 0v43.317L60.674 70.99zM4.518 101.909h79.685a4.44 4.44 0 0 0 4.427-4.427v-.642L44.405 62.044.09 96.84v.642a4.44 4.44 0 0 0 4.427 4.427'
       />
       <path
         fill='#85ACB0'
@@ -45,7 +45,7 @@ const DerivLightUnreadEmailNotificationIcon = (
       />
     </g>
     <defs>
-      <clipPath id='5a43c766be542f080f253b4be90c7564__a'>
+      <clipPath id='02ece03aa'>
         <path fill='#fff' d='M0 0h102v102H0z' />
       </clipPath>
     </defs>

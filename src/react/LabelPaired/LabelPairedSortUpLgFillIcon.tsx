@@ -20,14 +20,7 @@ const LabelPairedSortUpLgFillIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='m7.36 7.14 5 5c.35.352.468.9.273 1.368s-.664.781-1.133.781h-10a1.28 1.28 0 0 1-1.172-.781 1.26 1.26 0 0 1 .274-1.367l5-5a1.205 1.205 0 0 1 1.757 0' />
-    </g>
-    <defs>
-      <clipPath id='2b1c28f76007d06844697422ef0bde8b__a'>
-        <path d='M0 0h13v30H0z' />
-      </clipPath>
-    </defs>
+    <path d='m7.36 7.14 5 5c.35.352.468.9.273 1.368s-.664.781-1.133.781h-10a1.28 1.28 0 0 1-1.172-.781 1.26 1.26 0 0 1 .274-1.367l5-5a1.205 1.205 0 0 1 1.757 0' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedSortUpLgFillIcon);

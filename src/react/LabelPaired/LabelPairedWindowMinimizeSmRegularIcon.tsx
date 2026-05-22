@@ -20,14 +20,7 @@ const LabelPairedWindowMinimizeSmRegularIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M.438 16h13.125a.47.47 0 0 1 .437.438.45.45 0 0 1-.437.437H.438A.43.43 0 0 1 0 16.438.45.45 0 0 1 .438 16' />
-    </g>
-    <defs>
-      <clipPath id='c4022fa18d8691f4491d1c709be4dc2b__a'>
-        <path d='M0 0h14v22H0z' />
-      </clipPath>
-    </defs>
+    <path d='M.438 16h13.125a.47.47 0 0 1 .437.438.45.45 0 0 1-.437.437H.438A.43.43 0 0 1 0 16.438.45.45 0 0 1 .438 16' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedWindowMinimizeSmRegularIcon);

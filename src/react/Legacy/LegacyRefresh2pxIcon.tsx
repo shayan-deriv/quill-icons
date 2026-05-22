@@ -19,18 +19,11 @@ export const LegacyRefresh2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path
-        fillRule='evenodd'
-        d='M3 0a1 1 0 0 1 1 1v1.255A7 7 0 0 1 15 8a1 1 0 1 1-2 0 5 5 0 0 0-8-4h2a1 1 0 0 1 0 2H3a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1M2 7a1 1 0 0 1 1 1 5 5 0 0 0 8 4H9a1 1 0 1 1 0-2h4a1 1 0 0 1 1 1v4a1 1 0 1 1-2 0v-1.255A7 7 0 0 1 1 8a1 1 0 0 1 1-1'
-        clipRule='evenodd'
-      />
-    </g>
-    <defs>
-      <clipPath id='3ccd750f60356121ff7b17cd4cfc7af3__a'>
-        <path d='M0 0h16v16H0z' />
-      </clipPath>
-    </defs>
+    <path
+      fillRule='evenodd'
+      d='M3 0a1 1 0 0 1 1 1v1.255A7 7 0 0 1 15 8a1 1 0 1 1-2 0 5 5 0 0 0-8-4h2a1 1 0 0 1 0 2H3a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1M2 7a1 1 0 0 1 1 1 5 5 0 0 0 8 4H9a1 1 0 1 1 0-2h4a1 1 0 0 1 1 1v4a1 1 0 1 1-2 0v-1.255A7 7 0 0 1 1 8a1 1 0 0 1 1-1'
+      clipRule='evenodd'
+    />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyRefresh2pxIcon);

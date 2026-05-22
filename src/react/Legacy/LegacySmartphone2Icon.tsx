@@ -19,19 +19,12 @@ export const LegacySmartphone2Icon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M5.5 2.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1' />
-      <path
-        fillRule='evenodd'
-        d='M5.5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h5a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 2a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1z'
-        clipRule='evenodd'
-      />
-    </g>
-    <defs>
-      <clipPath id='12fb7c28f0ec0f81dc5ce93a502e6c89__a'>
-        <path d='M0 0h16v16H0z' />
-      </clipPath>
-    </defs>
+    <path d='M5.5 2.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1' />
+    <path
+      fillRule='evenodd'
+      d='M5.5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h5a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 2a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1z'
+      clipRule='evenodd'
+    />
   </svg>
 );
 const ForwardRef = forwardRef(LegacySmartphone2Icon);

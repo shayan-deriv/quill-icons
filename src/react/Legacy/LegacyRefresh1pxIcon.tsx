@@ -21,7 +21,7 @@ export const LegacyRefresh1pxIcon = (
     {title ? <title id={titleId}>{title}</title> : null}
     <g stroke='#333' strokeLinecap='round'>
       <path d='M13.5 8a5.5 5.5 0 0 0-9.63-3.633M2.5 8a5.5 5.5 0 0 0 9.633 3.629' />
-      <path strokeLinejoin='round' d='M3.5 1.5v3h3M12.5 14.5v-3h-3' />
+      <path strokeLinejoin='round' d='M3.5 1.5v3h3m6 10v-3h-3' />
     </g>
   </svg>
 );

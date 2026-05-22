@@ -19,9 +19,9 @@ const DerivLightIcEmailSentExpiredIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#cb0c2b7b4570a4a86296d902d7fa3ad8__a)'>
+    <g clipPath='url(#8aee1934a)'>
       <mask
-        id='cb0c2b7b4570a4a86296d902d7fa3ad8__b'
+        id='8aee1934b'
         width={128}
         height={128}
         x={0}
@@ -33,14 +33,14 @@ const DerivLightIcEmailSentExpiredIcon = (
       >
         <path fill='#fff' d='M0 0h128v128H0z' />
       </mask>
-      <g mask='url(#cb0c2b7b4570a4a86296d902d7fa3ad8__b)'>
+      <g mask='url(#8aee1934b)'>
         <path
           fill='#BBCCCE'
-          d='M13 44.626v14.087l37.62 31.59 6.565-5.582 6.565-5.583 6.46 5.831 6.46 5.831L115 58.048V45.063a1.985 1.985 0 0 0-.94-1.688L66.11 13.602a4.02 4.02 0 0 0-4.23 0L14 42.93c-.612.35-.992.995-1 1.697'
+          d='M13 44.626v14.087l37.62 31.59 6.565-5.582 6.565-5.583 6.46 5.831 6.46 5.831L115 58.048V45.063a1.99 1.99 0 0 0-.94-1.688L66.11 13.602a4.02 4.02 0 0 0-4.23 0L14 42.93c-.612.35-.992.995-1 1.697'
         />
         <path
           fill='#E1F4F3'
-          d='M21 30.248v59.404h86V30.248a4 4 0 0 0-1.174-2.823A3.99 3.99 0 0 0 103 26.26H25c-2.21 0-4 1.784-4 3.988'
+          d='M21 30.248v59.404h86V30.248a4 4 0 0 0-1.174-2.823A4 4 0 0 0 103 26.26H25c-2.21 0-4 1.784-4 3.988'
         />
         <path
           fill='#84ABAE'
@@ -53,7 +53,7 @@ const DerivLightIcEmailSentExpiredIcon = (
         <path
           fill='#E1F4F3'
           fillRule='evenodd'
-          d='m114.479 112.925-46.542-41.49-.007.004a5.873 5.873 0 0 0-7.967.007L13.509 112.96A4.002 4.002 0 0 0 17 115h.2l45.476-40.601.008-.008a1.884 1.884 0 0 1 2.572 0l.009.008L110.8 115h.169a4 4 0 0 0 3.51-2.075'
+          d='m114.479 112.925-46.542-41.49-.007.004a5.873 5.873 0 0 0-7.967.007L13.509 112.96A4 4 0 0 0 17 115h.2l45.476-40.601.008-.008a1.884 1.884 0 0 1 2.572 0l.009.008L110.8 115h.169a4 4 0 0 0 3.51-2.075'
           clipRule='evenodd'
         />
         <path
@@ -74,7 +74,7 @@ const DerivLightIcEmailSentExpiredIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='cb0c2b7b4570a4a86296d902d7fa3ad8__a'>
+      <clipPath id='8aee1934a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

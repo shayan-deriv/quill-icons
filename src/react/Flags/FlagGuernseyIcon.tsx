@@ -22,7 +22,7 @@ export const FlagGuernseyIcon = (
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill='#fff'
-      d='M14 0h8a2 2 0 0 1 2 2v4H14zM10 0H2a2 2 0 0 0-2 2v4h10zM0 10v4a2 2 0 0 0 2 2h8v-6zM14 16h8a2 2 0 0 0 2-2v-4H14z'
+      d='M14 0h8a2 2 0 0 1 2 2v4H14zm-4 0H2a2 2 0 0 0-2 2v4h10zM0 10v4a2 2 0 0 0 2 2h8v-6zm14 6h8a2 2 0 0 0 2-2v-4H14z'
     />
     <path
       fill='red'

@@ -19,18 +19,11 @@ export const LegacyEdit1pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path
-        fillRule='evenodd'
-        d='M11.146 1.146a2.621 2.621 0 0 1 3.708 3.708L3.707 16H0v-3.707zm3 .708a1.62 1.62 0 0 0-2.292 0l-.647.646L13.5 4.793l.646-.647a1.62 1.62 0 0 0 0-2.292M12.793 5.5 10.5 3.207 2.707 11 5 13.293zM1 12.707l1-1L4.293 14l-1 1H1z'
-        clipRule='evenodd'
-      />
-    </g>
-    <defs>
-      <clipPath id='42740decb4d25a9e21260c4ff1180fbf__a'>
-        <path d='M0 0h16v16H0z' />
-      </clipPath>
-    </defs>
+    <path
+      fillRule='evenodd'
+      d='M11.146 1.146a2.621 2.621 0 0 1 3.708 3.708L3.707 16H0v-3.707zm3 .708a1.62 1.62 0 0 0-2.292 0l-.647.646L13.5 4.793l.646-.647a1.62 1.62 0 0 0 0-2.292M12.793 5.5 10.5 3.207 2.707 11 5 13.293zM1 12.707l1-1L4.293 14l-1 1H1z'
+      clipRule='evenodd'
+    />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyEdit1pxIcon);

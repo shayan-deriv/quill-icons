@@ -20,14 +20,7 @@ const LabelPairedMinusXlBoldIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M20.25 18a1.11 1.11 0 0 1-1.125 1.125H1.875C1.219 19.125.75 18.656.75 18c0-.61.469-1.125 1.125-1.125h17.25c.61 0 1.125.516 1.125 1.125' />
-    </g>
-    <defs>
-      <clipPath id='2c3952545abe80f2cc9751f8c3325102__a'>
-        <path d='M0 0h21v36H0z' />
-      </clipPath>
-    </defs>
+    <path d='M20.25 18a1.11 1.11 0 0 1-1.125 1.125H1.875C1.219 19.125.75 18.656.75 18c0-.61.469-1.125 1.125-1.125h17.25c.61 0 1.125.516 1.125 1.125' />
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedMinusXlBoldIcon);

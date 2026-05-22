@@ -19,13 +19,11 @@ export const LegacyLoader7Icon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <rect width={8} height={16} y={8} rx={4} />
-      <rect width={8} height={16} x={16} y={8} rx={4} />
-      <rect width={8} height={16} x={32} y={8} rx={4} />
-      <rect width={8} height={24} x={48} y={4} rx={4} />
-      <rect width={8} height={32} x={64} rx={4} />
-    </g>
+    <rect width={8} height={16} y={8} rx={4} />
+    <rect width={8} height={16} x={16} y={8} rx={4} />
+    <rect width={8} height={16} x={32} y={8} rx={4} />
+    <rect width={8} height={24} x={48} y={4} rx={4} />
+    <rect width={8} height={32} x={64} rx={4} />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyLoader7Icon);

@@ -22,7 +22,7 @@ export const FlagFinlandIcon = (
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill='#fff'
-      d='M11 0h11a2 2 0 0 1 2 2v4H11zM7 0H2a2 2 0 0 0-2 2v4h7zM0 10v4a2 2 0 0 0 2 2h5v-6zM11 16h11a2 2 0 0 0 2-2v-4H11z'
+      d='M11 0h11a2 2 0 0 1 2 2v4H11zM7 0H2a2 2 0 0 0-2 2v4h7zM0 10v4a2 2 0 0 0 2 2h5v-6zm11 6h11a2 2 0 0 0 2-2v-4H11z'
     />
     <path
       fill='#003282'
