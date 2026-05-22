@@ -28,9 +28,10 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.CI_GITHUB_TOKEN }}
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
+          node-version: '22'
+          registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies
         run: npm clean-install
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
@@ -41,7 +42,9 @@ jobs:
         env:
           CI: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN}}
+          # Granular/classic npm token with publish access to @deriv/quill-icons (org/repo secret)
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
       - name: Extract Version
         id: extract_version
