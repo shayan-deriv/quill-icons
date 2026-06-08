@@ -1,3 +1,11 @@
+## [2.6.1](https://github.com/deriv-com/quill-icons/compare/v2.6.0...v2.6.1) (2026-06-08)
+
+
+### 🐛 	 Bug Fixes
+
+* optimize illustrations ([bed9335](https://github.com/deriv-com/quill-icons/commit/bed9335d5f03b1830c5612c300a135556cba5ddd))
+* optimize illustrations ([2e96043](https://github.com/deriv-com/quill-icons/commit/2e96043b49c4f437526032adb7ca49e4efc0e607))
+
 # [2.6.0](https://github.com/deriv-com/quill-icons/compare/v2.5.3...v2.6.0) (2026-06-08)
 
 
