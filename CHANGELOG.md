@@ -1,3 +1,17 @@
+# [2.6.0](https://github.com/deriv-com/quill-icons/compare/v2.5.3...v2.6.0) (2026-06-08)
+
+
+### ✨ 	 Features
+
+* v2 icons ([beff73a](https://github.com/deriv-com/quill-icons/commit/beff73af98720aeb556f946a9a1fd6e82de68e6f))
+* v2 icons ([843f423](https://github.com/deriv-com/quill-icons/commit/843f423940948997376054c1b126dd1f35b41128))
+
+
+### 🐛 	 Bug Fixes
+
+* npm authentication failure ([cbf09ac](https://github.com/deriv-com/quill-icons/commit/cbf09ace57e9a83f79a477c8da2cea443430b57f))
+* npm authentication failure ([060e14c](https://github.com/deriv-com/quill-icons/commit/060e14cb42c257a1d0604c1c8d19b0267c1b8f67))
+
 ## [2.5.3](https://github.com/deriv-com/quill-icons/compare/v2.5.2...v2.5.3) (2026-05-14)
 
 
