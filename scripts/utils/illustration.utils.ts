@@ -21,17 +21,12 @@ export const getIllustrationAssetImportPath = (componentName: string) =>
 export const buildIllustrationComponentSource = (componentName: string) => {
   const assetImportPath = getIllustrationAssetImportPath(componentName);
   return `import * as React from 'react';
-import type { ImgHTMLAttributes } from 'react';
+import type { QuillIllustrationProps } from '../../types';
 import { Ref, forwardRef } from 'react';
 import illustrationSrc from '${assetImportPath}';
 
-interface IllustrationIconProps extends ImgHTMLAttributes<HTMLImageElement> {
-  title?: string;
-  titleId?: string;
-}
-
 const ${componentName} = (
-  { title, titleId, alt, ...props }: IllustrationIconProps,
+  { title, titleId, alt, ...props }: QuillIllustrationProps,
   ref: Ref<HTMLImageElement>,
 ) => (
   <img
