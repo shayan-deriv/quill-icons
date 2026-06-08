@@ -1,48 +1,25 @@
 import * as React from 'react';
-import type { SVGProps } from 'react';
+import type { ImgHTMLAttributes } from 'react';
 import { Ref, forwardRef } from 'react';
-interface SVGRProps {
+import illustrationSrc from './assets/DerivLightIcWarning.png';
+
+interface IllustrationIconProps extends ImgHTMLAttributes<HTMLImageElement> {
   title?: string;
   titleId?: string;
 }
+
 const DerivLightIcWarningIcon = (
-  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
-  ref: Ref<SVGSVGElement>,
+  { title, titleId, alt, ...props }: IllustrationIconProps,
+  ref: Ref<HTMLImageElement>,
 ) => (
-  <svg
-    xmlns='http://www.w3.org/2000/svg'
-    fill='none'
-    viewBox='0 0 64 65'
-    role='img'
+  <img
+    src={illustrationSrc}
     ref={ref}
+    role='img'
+    alt={alt ?? title ?? ''}
     aria-labelledby={titleId}
     {...props}
-  >
-    {title ? <title id={titleId}>{title}</title> : null}
-    <g fillRule='evenodd' clipPath='url(#91e614a0a)' clipRule='evenodd'>
-      <path
-        fill='#FFAD3A'
-        d='M64 32.133c0-17.673-14.328-32-32-32s-32 14.328-32 32 14.328 32 32 32 32-14.328 32-32'
-        opacity={0.2}
-      />
-      <path
-        fill='#FFAD3A'
-        d='M55 32.133c0-12.702-10.298-23-23-23s-23 10.298-23 23 10.298 23 23 23 23-10.298 23-23'
-        style={{
-          mixBlendMode: 'multiply',
-        }}
-      />
-      <path
-        fill='#fff'
-        d='M32.618 34.542a1.6 1.6 0 0 0 1.071-.516c.33-.356.4-.818.427-.999l.005-.033.932-5.783q.055-.343.055-.691v-3.038c0-.738-.176-1.906-1.207-2.482a2.85 2.85 0 0 0-1.434-.367 2.86 2.86 0 0 0-1.38.371c-1.024.576-1.196 1.738-1.196 2.47v3.04q0 .355.057.705l.95 5.776.005.033c.028.182.1.647.434 1.003.318.34.783.544 1.281.511m-2.728 7.245v.474c0 .598.183 1.225.677 1.698.49.47 1.168.674 1.931.674s1.443-.205 1.934-.675c.494-.473.676-1.1.676-1.697v-.474c0-.598-.182-1.225-.676-1.698-.49-.47-1.17-.674-1.934-.674-.762 0-1.44.204-1.93.674-.495.473-.677 1.1-.677 1.698'
-      />
-    </g>
-    <defs>
-      <clipPath id='91e614a0a'>
-        <path fill='#fff' d='M0 0h64v65H0z' />
-      </clipPath>
-    </defs>
-  </svg>
+  />
 );
 const ForwardRef = forwardRef(DerivLightIcWarningIcon);
 export default ForwardRef;

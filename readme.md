@@ -27,7 +27,7 @@ npm i @deriv/quill-icons
 
 The published package is **ESM-only** (single `dist/` build, no CommonJS `require`). Use `import` in apps or bundlers that resolve the `exports` field.
 
-If `npm publish` fails with `ERR_STRING_TOO_LONG`, the unpacked tarball is still near Node’s hard limit; run a full **`npm run export`** (Figma token required) so the updated SVGO pipeline rewrites `src/react/**` with smaller SVG output, or split heavy sets (for example illustrations) into a separate package.
+**Illustration** components render `<img>` tags backed by PNG assets (complex 3D Figma artwork is not converted to SVG). Icons, logos, and other categories remain optimized SVG React components.
 
 **Usage**
 
@@ -48,7 +48,7 @@ const TestComponent = () => (
 | **Accounts**       | 22         | `@deriv/quill-icons/Accounts`       | Trading account type icons (DMT5, DXTrade, etc.)                                                     |
 | **Currencies**     | 76         | `@deriv/quill-icons/Currencies`     | Cryptocurrency and fiat currency icons, including multi-chain USDC/USDT variants                     |
 | **Flags**          | 260        | `@deriv/quill-icons/Flags`          | Country flag icons                                                                                   |
-| **Illustration**   | 360        | `@deriv/quill-icons/Illustration`   | Deriv Light and Dark theme illustrations for onboarding, KYC, wallets, P2P, and more                 |
+| **Illustration**   | 294        | `@deriv/quill-icons/Illustration`   | Deriv Light theme illustrations (PNG-backed `<img>` components) for onboarding, KYC, wallets, and more |
 | **Illustrative**   | 123        | `@deriv/quill-icons`                | Mid-size illustrative icons                                                                          |
 | **LabelPaired**    | 4,625      | `@deriv/quill-icons/LabelPaired`    | UI icons in 5 sizes (Caption–Xl) × 3 weights (Regular, Bold, Fill) — 329 unique icons                |
 | **Legacy**         | 326        | `@deriv/quill-icons/Legacy`         | Legacy icon set retained for backward compatibility                                                  |
@@ -85,6 +85,7 @@ With [@figma-export](https://www.npmjs.com/package/@figma-export/cli) we export 
   We use this to generate `SVG` files, you can check them in `svg` folder.
 - [@figma-export/output-components-as-svgr](https://github.com/marcomontalbano/figma-exporter/blob/HEAD/packages/cli/packages/output-components-as-svgr):
   We use this to generate `React` Components based on `transformed (optimized) SVG` files. you can check them in `src/react` folder.
+- **Illustrations (custom PNG pipeline)** — `npm run export:illustrations` fetches original PNG renders from Figma (see `scripts/export-illustrations-png.ts`) into `png/Illustration/` and `src/react/Illustration/assets/`, with thin React wrappers in `src/react/Illustration/`.
 
 ## Pre-installation
 
