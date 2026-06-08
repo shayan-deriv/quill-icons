@@ -97,7 +97,7 @@
     "lint": "node --max-old-space-size=4096 ./node_modules/.bin/eslint . --cache",
     "lint:fix": "node --max-old-space-size=4096 ./node_modules/.bin/eslint . --cache --fix",
     "format": "prettier --write . --config ./.prettierrc",
-    "allIconsNames": "cd ./src/react && tree -J > allIconsNames.ts && bash -c 'echo -e \"export const allIconsNames = $(cat allIconsNames.ts)\" > allIconsNames.ts'",
+    "allIconsNames": "tsx ./scripts/generate-all-icons-names.ts",
     "prepare": "husky",
     "prepublishOnly": "npm run build"
   },

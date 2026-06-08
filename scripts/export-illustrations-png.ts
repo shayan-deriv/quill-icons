@@ -1,10 +1,7 @@
 import dotenv from 'dotenv';
 import { exportIllustrationPngs } from './lib/figma-png';
 import { createIllustrationPngOutputter } from './outputters/output-illustrations-png';
-import {
-  ILLUSTRATION_PNG_SCALE,
-  IllustrationPngOutputConfig,
-} from './png-configs/illustrations';
+import { ILLUSTRATION_PNG_SCALE, IllustrationPngOutputConfig } from './png-configs/illustrations';
 
 dotenv.config();
 

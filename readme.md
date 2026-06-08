@@ -43,21 +43,21 @@ const TestComponent = () => (
 
 ## Available Icon Categories
 
-| Category           | Components | Import Path                         | Description                                                                                          |
-| ------------------ | ---------- | ----------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| **Accounts**       | 22         | `@deriv/quill-icons/Accounts`       | Trading account type icons (DMT5, DXTrade, etc.)                                                     |
-| **Currencies**     | 76         | `@deriv/quill-icons/Currencies`     | Cryptocurrency and fiat currency icons, including multi-chain USDC/USDT variants                     |
-| **Flags**          | 260        | `@deriv/quill-icons/Flags`          | Country flag icons                                                                                   |
+| Category           | Components | Import Path                         | Description                                                                                            |
+| ------------------ | ---------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Accounts**       | 22         | `@deriv/quill-icons/Accounts`       | Trading account type icons (DMT5, DXTrade, etc.)                                                       |
+| **Currencies**     | 76         | `@deriv/quill-icons/Currencies`     | Cryptocurrency and fiat currency icons, including multi-chain USDC/USDT variants                       |
+| **Flags**          | 260        | `@deriv/quill-icons/Flags`          | Country flag icons                                                                                     |
 | **Illustration**   | 294        | `@deriv/quill-icons/Illustration`   | Deriv Light theme illustrations (PNG-backed `<img>` components) for onboarding, KYC, wallets, and more |
-| **Illustrative**   | 123        | `@deriv/quill-icons`                | Mid-size illustrative icons                                                                          |
-| **LabelPaired**    | 4,625      | `@deriv/quill-icons/LabelPaired`    | UI icons in 5 sizes (Caption–Xl) × 3 weights (Regular, Bold, Fill) — 329 unique icons                |
-| **Legacy**         | 326        | `@deriv/quill-icons/Legacy`         | Legacy icon set retained for backward compatibility                                                  |
-| **Logo**           | 641        | `@deriv/quill-icons/Logo`           | Deriv brand, sub-brand, and payment method logos                                                     |
-| **Markets**        | 292        | `@deriv/quill-icons/Markets`        | Financial market and instrument icons                                                                |
-| **PaymentMethods** | 87         | `@deriv/quill-icons/PaymentMethods` | Payment provider and method icons                                                                    |
-| **Social**         | 32         | `@deriv/quill-icons/Social`         | Social media and platform icons                                                                      |
-| **Standalone**     | 925        | `@deriv/quill-icons/Standalone`     | Scalable UI icons via `iconSize` prop (xs–2xl) — 329 unique icons across Regular, Bold, Fill weights |
-| **TradeTypes**     | 37         | `@deriv/quill-icons/TradeTypes`     | Trading contract type icons with built-in colors                                                     |
+| **Illustrative**   | 123        | `@deriv/quill-icons`                | Mid-size illustrative icons                                                                            |
+| **LabelPaired**    | 4,625      | `@deriv/quill-icons/LabelPaired`    | UI icons in 5 sizes (Caption–Xl) × 3 weights (Regular, Bold, Fill) — 329 unique icons                  |
+| **Legacy**         | 326        | `@deriv/quill-icons/Legacy`         | Legacy icon set retained for backward compatibility                                                    |
+| **Logo**           | 641        | `@deriv/quill-icons/Logo`           | Deriv brand, sub-brand, and payment method logos                                                       |
+| **Markets**        | 292        | `@deriv/quill-icons/Markets`        | Financial market and instrument icons                                                                  |
+| **PaymentMethods** | 87         | `@deriv/quill-icons/PaymentMethods` | Payment provider and method icons                                                                      |
+| **Social**         | 32         | `@deriv/quill-icons/Social`         | Social media and platform icons                                                                        |
+| **Standalone**     | 925        | `@deriv/quill-icons/Standalone`     | Scalable UI icons via `iconSize` prop (xs–2xl) — 329 unique icons across Regular, Bold, Fill weights   |
+| **TradeTypes**     | 37         | `@deriv/quill-icons/TradeTypes`     | Trading contract type icons with built-in colors                                                       |
 
 **Category-scoped imports (recommended for tree-shaking):**
 

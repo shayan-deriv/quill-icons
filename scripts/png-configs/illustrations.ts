@@ -1,11 +1,6 @@
 import { ComponentOutputterParamOption } from '@figma-export/types';
 import { SVGR_COMPONENT_OUT_PUT_PATH, PNG_OUT_PUT_PATH } from '../utils/figma.constants';
-import {
-  getDirName,
-  getFileDescriptor,
-  isMd,
-  makeVariableName,
-} from '../utils/figma.utils';
+import { getDirName, getFileDescriptor, isMd, makeVariableName } from '../utils/figma.utils';
 import * as FigmaExport from '@figma-export/types';
 import { pascalCase } from '@figma-export/utils';
 

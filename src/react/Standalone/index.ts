@@ -923,3 +923,9 @@ export { default as StandaloneDerivBrandLogoRegularIcon } from './StandaloneDeri
 export { default as StandaloneDerivBrandLogoFillIcon } from './StandaloneDerivBrandLogoFillIcon';
 export { default as StandaloneOptionsRegularIcon } from './StandaloneOptionsRegularIcon';
 export { default as StandaloneOptionsFillIcon } from './StandaloneOptionsFillIcon';
+export { default as StandaloneListRegularIcon } from './StandaloneListRegularIcon';
+export { default as StandaloneListBoldIcon } from './StandaloneListBoldIcon';
+export { default as StandaloneListFillIcon } from './StandaloneListFillIcon';
+export { default as StandaloneGearApiRegularIcon } from './StandaloneGearApiRegularIcon';
+export { default as StandaloneGearApiBoldIcon } from './StandaloneGearApiBoldIcon';
+export { default as StandaloneGearApiFillIcon } from './StandaloneGearApiFillIcon';
