@@ -62,9 +62,7 @@ export const getPngBuffers = async (
   const limit = pLimit(concurrency);
 
   const urlGroups = await Promise.all(
-    idGroups.map((groupIds) =>
-      limit(() => filePngUrls(client, fileId, groupIds, version, scale)),
-    ),
+    idGroups.map((groupIds) => limit(() => filePngUrls(client, fileId, groupIds, version, scale))),
   );
   const images = Object.assign({}, ...urlGroups);
 
