@@ -1,3 +1,11 @@
+## [2.6.3](https://github.com/deriv-com/quill-icons/compare/v2.6.2...v2.6.3) (2026-06-08)
+
+
+### 🐛 	 Bug Fixes
+
+* export illustrations ([ae23ef1](https://github.com/deriv-com/quill-icons/commit/ae23ef1b73f66cf1d35f3a12c47dd2788bf54cea))
+* export illustrations ([606eb75](https://github.com/deriv-com/quill-icons/commit/606eb75e5e3246e499d272d365a406c18729696c))
+
 ## [2.6.2](https://github.com/deriv-com/quill-icons/compare/v2.6.1...v2.6.2) (2026-06-08)
 
 
