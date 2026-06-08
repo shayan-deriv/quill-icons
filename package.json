@@ -7,7 +7,10 @@
   ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "sideEffects": false,
+  "sideEffects": [
+    "**/*.png",
+    "**/Illustration/**"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -87,12 +90,13 @@
     "export:logos": "tsx ./node_modules/@figma-export/cli/bin/run use-config ./scripts/logo.figma.config.ts",
     "export:illustrations": "tsx ./scripts/export-illustrations-png.ts",
     "migrate:illustrations:png": "tsx ./scripts/migrate-illustrations-to-png.ts",
+    "sync:illustration:components": "tsx ./scripts/sync-illustration-components.ts",
     "export:figma": "npm-run-all export:icons export:logos export:illustrations",
     "rexport": "npm-run-all clean export:figma format",
     "export:barrels": "barrelsby -c barrelsby.config.json",
     "export": "npm-run-all clean export:figma allIconsNames export:barrels format",
     "clean:postBuild": "rimraf dist/types dist/index.d.ts dist/index.js",
-    "build": "rimraf dist && npx tsc -p tsconfig.json && cp -R src/react/Illustration/assets dist/react/Illustration/assets",
+    "build": "rimraf dist && npx tsc -p tsconfig.json && tsx ./scripts/copy-illustration-assets.ts",
     "rebuild": "npm-run-all clean export build",
     "lint": "node --max-old-space-size=4096 ./node_modules/.bin/eslint . --cache",
     "lint:fix": "node --max-old-space-size=4096 ./node_modules/.bin/eslint . --cache --fix",

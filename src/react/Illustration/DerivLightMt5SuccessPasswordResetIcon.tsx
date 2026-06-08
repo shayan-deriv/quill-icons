@@ -1,15 +1,10 @@
 import * as React from 'react';
-import type { ImgHTMLAttributes } from 'react';
+import type { QuillIllustrationProps } from '../../types';
 import { Ref, forwardRef } from 'react';
 import illustrationSrc from './assets/DerivLightMt5SuccessPasswordReset.png';
 
-interface IllustrationIconProps extends ImgHTMLAttributes<HTMLImageElement> {
-  title?: string;
-  titleId?: string;
-}
-
 const DerivLightMt5SuccessPasswordResetIcon = (
-  { title, titleId, alt, ...props }: IllustrationIconProps,
+  { title, titleId, alt, ...props }: QuillIllustrationProps,
   ref: Ref<HTMLImageElement>,
 ) => (
   <img

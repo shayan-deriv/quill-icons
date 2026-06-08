@@ -85,7 +85,19 @@ With [@figma-export](https://www.npmjs.com/package/@figma-export/cli) we export 
   We use this to generate `SVG` files, you can check them in `svg` folder.
 - [@figma-export/output-components-as-svgr](https://github.com/marcomontalbano/figma-exporter/blob/HEAD/packages/cli/packages/output-components-as-svgr):
   We use this to generate `React` Components based on `transformed (optimized) SVG` files. you can check them in `src/react` folder.
-- **Illustrations (custom PNG pipeline)** — `npm run export:illustrations` fetches original PNG renders from Figma (see `scripts/export-illustrations-png.ts`) into `png/Illustration/` and `src/react/Illustration/assets/`, with thin React wrappers in `src/react/Illustration/`.
+- **Illustrations (custom PNG pipeline)** — complex 3D Figma artwork is exported as **PNG**, not SVG:
+  - `npm run export:illustrations` — fetches PNG renders from Figma (`scripts/export-illustrations-png.ts`) into `png/Illustration/` and `src/react/Illustration/assets/`, and writes `<img>` React wrappers in `src/react/Illustration/`.
+  - `npm run migrate:illustrations:png` — offline fallback: rasterize existing `svg/Illustration/*.svg` into PNG assets (requires SVG sources on disk).
+  - `npm run sync:illustration:components` — regenerate React wrappers from existing `src/react/Illustration/assets/*.png` without Figma.
+  - `npm run build` copies PNG assets into `dist/react/Illustration/assets/` for publish.
+
+Import illustrations as PNG-backed components:
+
+```jsx
+import { DerivLightWalletIcon } from '@deriv/quill-icons/Illustration';
+
+<DerivLightWalletIcon width={120} height={120} alt='Wallet' />;
+```
 
 ## Pre-installation
 
@@ -116,10 +128,18 @@ With [@figma-export](https://www.npmjs.com/package/@figma-export/cli) we export 
     npm ci
     ```
 
-4.  **Export:**
+4.  **Export** (requires `FIGMA_TOKEN` in `.env`):
 
     ```sh
     npm run export
+    ```
+
+    Icons and logos export as optimized SVG React components; illustrations export as PNG assets via `export:illustrations` (included in `export` / `rebuild`).
+
+5.  **Build** (for local publish or linking):
+
+    ```sh
+    npm run build
     ```
 
 ## Icons Naming Conventions

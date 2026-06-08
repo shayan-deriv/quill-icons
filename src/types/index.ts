@@ -1,9 +1,20 @@
-import { SVGProps, ForwardRefExoticComponent, RefAttributes } from 'react';
+import {
+  ForwardRefExoticComponent,
+  ImgHTMLAttributes,
+  RefAttributes,
+  SVGProps,
+} from 'react';
 
 export type IconSize = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl';
 
 export interface QuillSvgProps extends SVGProps<SVGSVGElement> {
   iconSize?: IconSize;
+}
+
+/** Props for PNG-backed Illustration components (`<img>` wrappers). */
+export interface QuillIllustrationProps extends ImgHTMLAttributes<HTMLImageElement> {
+  title?: string;
+  titleId?: string;
 }
 
 export const IconSizeGuide = [
@@ -56,4 +67,8 @@ interface SVGRProps {
 
 export type IconTypes = ForwardRefExoticComponent<
   Omit<QuillSvgProps & SVGRProps, 'ref'> & RefAttributes<SVGSVGElement>
+>;
+
+export type QuillIllustrationComponent = ForwardRefExoticComponent<
+  QuillIllustrationProps & RefAttributes<HTMLImageElement>
 >;
